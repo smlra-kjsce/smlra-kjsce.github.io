@@ -1,6 +1,8 @@
 import React from "react";
 import "../static/css/style.css";
 import pic from "../static/Images/pic.png";
+import Particle from "react-particles-js";
+import particles from "../static/particles.json";
 
 export default function Home() {
   return (
@@ -69,6 +71,7 @@ export default function Home() {
       </nav>
       <div id="particles-js">
         {/* <div class="container" style="margin-top: 9%;"> */}
+        <Particle params={particles} />
         <div className="btext" style={{ paddingLeft: "5%" }}>
           <img src={pic} alt="smlra" style={{ width: "15%", height: "15%" }} />
           <h1
