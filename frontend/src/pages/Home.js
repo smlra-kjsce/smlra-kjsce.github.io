@@ -71,7 +71,7 @@ export default function Home() {
       </nav>
       <div id="particles-js">
         {/* <div class="container" style="margin-top: 9%;"> */}
-        <Particle params={particles} />
+        <Particle params={particles} className="particles_container" />
         <div className="btext" style={{ paddingLeft: "5%" }}>
           <img src={pic} alt="smlra" style={{ width: "15%", height: "15%" }} />
           <h1
