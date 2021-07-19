@@ -2,6 +2,7 @@ import React from "react";
 import Home from "./pages/Home";
 import { Route, Link } from "react-router";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "font-awesome/css/font-awesome.min.css";
 
 function App() {
   return (

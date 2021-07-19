@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 * {
   margin: 0px;
   padding: 0px;
@@ -6,7 +8,9 @@
 .navbar-toggler {
   margin-left: 85%;
 }
-
+.fonts {
+  font-family: "Montserrat", sans-serif;
+}
 /* Firefox */
 
 body::-webkit-scrollbar {
