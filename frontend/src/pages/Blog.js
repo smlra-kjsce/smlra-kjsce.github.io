@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+import Navbar2 from "../components/Navbar";
 import Footer from "../components/Footer";
 import "../static/css/style.css";
 import blog from "../static/Images/blog.svg";
@@ -13,7 +13,7 @@ import blog6 from "../static/Images/blog6_img.PNG";
 export default function Blog() {
   return (
     <div className="fonts">
-      <Navbar />
+      <Navbar2 />
       <div className="row" style={{ margin: "10%", marginBottom: 0 }}>
         <div className="col">
           <img
@@ -36,66 +36,6 @@ export default function Blog() {
         <h2 className="text-center" style={{ marginBottom: "4%" }}>
           BLOGS BY SMLRA
         </h2>
-        <div class="row" style={{ paddingLeft: "10%", paddingRight: "10%" }}>
-          <div class="col">
-            <div
-              className="card shadow c1"
-              style={{ borderWidth: "0px", width: "27rem", marginBottom: "5%" }}
-            >
-              <a href="https://smlra-kjsce.medium.com/vectorized-view-of-svms-6a85dae8ca72">
-                <img className="card-img-top" src={blog4} alt="blog" />
-                <div className="card-body text-dark">
-                  <h5 className="card-title">The Secrets of SVMs </h5>
-                  <p className="card-text">
-                    This article is continuation of 2nd part in “ML-DL-101”
-                    series - “Supporting SVMs (Support Vector Machines)”. You
-                    want to give it a read before going through this one. In
-                    this 4th blog, we will dive deeper into the intricacies of
-                    SVMs and their working.It is one of the most widely used
-                    algorithms today every ML Engineer should have it in it’s
-                    toolbox of ML algorithms. You will also get to know about
-                    Quadratic Programming which is widely used in solving
-                    optimization problems. Without further ado, let’s get
-                    started in this amazing journey to understand SVM's and
-                    explore it to the fullest. Let's begin this journey.{" "}
-                  </p>
-                  <p className="card-text">
-                    <small className="text-muted">30th April 2020</small>
-                  </p>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col">
-            <div
-              className="card shadow c1"
-              style={{ borderWidth: "0px", width: "27rem", marginBottom: "5%" }}
-            >
-              <a href="https://smlra-kjsce.medium.com/vectorized-view-of-svms-6a85dae8ca72">
-                <img className="card-img-top" src={blog4} alt="blog" />
-                <div className="card-body text-dark">
-                  <h5 className="card-title">The Secrets of SVMs </h5>
-                  <p className="card-text">
-                    This article is continuation of 2nd part in “ML-DL-101”
-                    series - “Supporting SVMs (Support Vector Machines)”. You
-                    want to give it a read before going through this one. In
-                    this 4th blog, we will dive deeper into the intricacies of
-                    SVMs and their working.It is one of the most widely used
-                    algorithms today every ML Engineer should have it in it’s
-                    toolbox of ML algorithms. You will also get to know about
-                    Quadratic Programming which is widely used in solving
-                    optimization problems. Without further ado, let’s get
-                    started in this amazing journey to understand SVM's and
-                    explore it to the fullest. Let's begin this journey.{" "}
-                  </p>
-                  <p className="card-text">
-                    <small className="text-muted">30th April 2020</small>
-                  </p>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
         <div
           className="card-deck "
           style={{ paddingLeft: "10%", paddingRight: "10%" }}
