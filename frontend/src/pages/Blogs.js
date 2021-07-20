@@ -10,7 +10,7 @@ import blog4 from "../static/Images/blog4_img.PNG";
 import blog5 from "../static/Images/blog5_img.PNG";
 import blog6 from "../static/Images/blog6_img.PNG";
 
-export default function Blog() {
+export default function Blogs() {
   return (
     <div className="fonts">
       <Navbar2 />
