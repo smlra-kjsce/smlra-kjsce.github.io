@@ -5,7 +5,11 @@ export default function Blog(props) {
   return (
     <div
       className="card shadow c1"
-      style={{ borderWidth: "0px", width: "27rem", marginBottom: "5%" }}
+      style={{
+        borderWidth: "0px",
+        width: "27rem",
+        marginBottom: "5%",
+      }}
     >
       <a href={props.link}>
         <img className="card-img-top" src={props.photo} alt="blog" />
