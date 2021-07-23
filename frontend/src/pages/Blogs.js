@@ -1,6 +1,7 @@
 import React from "react";
-import Navbar2 from "../components/Navbar";
+import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Blog from "../components/Blog";
 import "../static/css/style.css";
 import blog from "../static/Images/blog.svg";
 import blog1 from "../static/Images/blog1_img.PNG";
@@ -13,7 +14,7 @@ import blog6 from "../static/Images/blog6_img.PNG";
 export default function Blogs() {
   return (
     <div className="fonts">
-      <Navbar2 />
+      <Navbar />
       <div className="row" style={{ margin: "10%", marginBottom: 0 }}>
         <div className="col">
           <img
@@ -36,6 +37,29 @@ export default function Blogs() {
         <h2 className="text-center" style={{ marginBottom: "4%" }}>
           BLOGS BY SMLRA
         </h2>
+        <div
+          className="card-deck "
+          style={{ paddingLeft: "10%", paddingRight: "10%" }}
+        >
+          <Blog
+            title="The Secrets of SVMs"
+            body="This article is continuation of 2nd part in “ML-DL-101” series
+                  - “Supporting SVMs (Support Vector Machines)”. You want to
+                  give it a read before going through this one. In this 4th
+                  blog, we will dive deeper into the intricacies of SVMs and
+                  their working.It is one of the most widely used algorithms
+                  today every ML Engineer should have it in it’s toolbox of ML
+                  algorithms. You will also get to know about Quadratic
+                  Programming which is widely used in solving optimization
+                  problems. Without further ado, let’s get started in this
+                  amazing journey to understand SVM's and explore it to the
+                  fullest. Let's begin this journey."
+            link="https://smlra-kjsce.medium.com/vectorized-view-of-svms-6a85dae8ca72"
+            date="30th April 2020"
+            photo={blog4}
+          ></Blog>
+          <Blog></Blog>
+        </div>
         <div
           className="card-deck "
           style={{ paddingLeft: "10%", paddingRight: "10%" }}
