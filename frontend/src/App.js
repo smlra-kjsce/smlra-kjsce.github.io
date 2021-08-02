@@ -4,6 +4,7 @@ import About from "./pages/About";
 import Blogs from "./pages/Blogs";
 import Initiatives from "./pages/Initiatives";
 import Team from "./pages/Team";
+import Contact from "./pages/Contact";
 import { Route, Link } from "react-router";
 // import "bootstrap/dist/css/bootstrap.min.css";
 // import "jquery/dist/jquery.min.js";
@@ -18,6 +19,7 @@ function App() {
       <Route exact path="/blogs" component={Blogs} />
       <Route exact path="/initiatives" component={Initiatives} />
       <Route exact path="/team" component={Team} />
+      <Route path="/contact" component={Contact} />
     </div>
   );
 }
