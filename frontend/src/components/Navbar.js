@@ -1,5 +1,7 @@
 import React from "react";
 import pic from "../static/Images/pic.png";
+// import { Link } from "react-router";
+import { NavLink, Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -7,14 +9,14 @@ export default function Navbar() {
       className="navbar navbar-expand-lg navbar-dark"
       style={{ backgroundColor: "black" }}
     >
-      <a className="navbar-brand" href="/index.html">
+      <Link className="navbar-brand" to="/" exact>
         <img
           className="navbar-left"
           src={pic}
           alt="smlra"
           style={{ width: "8%", height: "5%" }}
         />
-      </a>
+      </Link>
       <button
         className="navbar-toggler"
         type="button"
@@ -32,36 +34,60 @@ export default function Navbar() {
         style={{ paddingRight: "22%", zIndex: 1 }}
       >
         <ul className="navbar-nav" style={{ fontSize: "large" }}>
-          <li className="nav-item active" style={{ paddingRight: "11%" }}>
-            <a className="nav-link" href="/index.html">
-              Home
-            </a>
-          </li>
-          <li className="nav-item" style={{ paddingRight: "11%" }}>
-            <a className="nav-link" href="/about.html">
-              About
-            </a>
-          </li>
-          <li className="nav-item" style={{ paddingRight: "11%" }}>
-            <a className="nav-link" href="/blogs.html">
-              Blogs
-            </a>
-          </li>
-          <li className="nav-item text-white" style={{ paddingRight: "11%" }}>
-            <a className="nav-link" href="./initiatives.html">
-              Initiatives
-            </a>
-          </li>
-          <li className="nav-item text-white" style={{ paddingRight: "11%" }}>
-            <a className="nav-link" href="./team.html">
-              Team
-            </a>
-          </li>
-          <li className="nav-item text-white">
-            <a className="nav-link" href="./contact.html">
-              Contact
-            </a>
-          </li>
+          <NavLink
+            className="navbar-item nav-link"
+            activeClassName="active"
+            to="/"
+            exact
+            style={{ paddingRight: "11%" }}
+          >
+            Home
+          </NavLink>
+          <NavLink
+            className="navbar-item nav-link"
+            activeClassName="active"
+            to="/about"
+            exact
+            style={{ paddingRight: "11%" }}
+          >
+            About
+          </NavLink>
+          <NavLink
+            className="navbar-item nav-link"
+            activeClassName="active"
+            to="/blogs"
+            exact
+            style={{ paddingRight: "11%" }}
+          >
+            Blogs
+          </NavLink>
+          <NavLink
+            className="navbar-item nav-link"
+            activeClassName="active"
+            to="/initiatives"
+            exact
+            style={{ paddingRight: "11%" }}
+          >
+            Initiatives
+          </NavLink>
+          <NavLink
+            className="navbar-item nav-link"
+            activeClassName="active"
+            to="/team"
+            exact
+            style={{ paddingRight: "11%" }}
+          >
+            Team
+          </NavLink>
+          <NavLink
+            className="navbar-item nav-link"
+            activeClassName="active"
+            to="/contact"
+            exact
+            style={{ paddingRight: "11%" }}
+          >
+            Contact
+          </NavLink>
         </ul>
       </div>
     </nav>

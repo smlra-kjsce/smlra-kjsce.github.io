@@ -5,7 +5,7 @@ import Blogs from "./pages/Blogs";
 import Initiatives from "./pages/Initiatives";
 import Team from "./pages/Team";
 import Contact from "./pages/Contact";
-import { Route, Link } from "react-router";
+import { Route } from "react-router";
 // import "bootstrap/dist/css/bootstrap.min.css";
 // import "jquery/dist/jquery.min.js";
 // import "bootstrap/dist/js/bootstrap.min.js";
