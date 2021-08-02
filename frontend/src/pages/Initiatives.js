@@ -1,6 +1,7 @@
 import React from "react";
-import Navbar2 from "../components/Navbar";
+import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Initiative from "../components/Initiative";
 import "../static/css/style.css";
 import pic from "../static/Images/pic.png";
 
@@ -15,69 +16,7 @@ import NLP101 from "../static/Images/Events/NLP-101.jpg";
 export default function Initiatives() {
   return (
     <div className="fonts">
-      <nav
-        className="navbar navbar-expand-lg navbar-dark"
-        style={{ backgroundColor: "black" }}
-      >
-        <a className="navbar-brand" href="/index.html">
-          <img src={pic} alt="smlra" style={{ width: "8%", height: "5%" }} />
-        </a>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarText"
-          aria-controls="navbarText"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon" />
-        </button>
-        <div
-          className="collapse navbar-collapse text-white"
-          id="navbarText"
-          style={{ paddingRight: "22%" }}
-        >
-          <ul
-            className="navbar-nav ml-auto text-white"
-            style={{ fontSize: "large" }}
-          >
-            <li className="nav-item text-white" style={{ paddingRight: "11%" }}>
-              <a className="nav-link" href="./index.html">
-                Home
-              </a>
-            </li>
-            <li className="nav-item text-white" style={{ paddingRight: "11%" }}>
-              <a className="nav-link" href="./about.html">
-                About
-              </a>
-            </li>
-            <li className="nav-item text-white" style={{ paddingRight: "11%" }}>
-              <a className="nav-link" href="./blogs.html">
-                Blogs
-              </a>
-            </li>
-            <li
-              className="nav-item active text-white"
-              style={{ paddingRight: "11%" }}
-            >
-              <a className="nav-link" href="./initiatives.html">
-                Initiatives
-              </a>
-            </li>
-            <li className="nav-item text-white" style={{ paddingRight: "11%" }}>
-              <a className="nav-link" href="./team.html">
-                Team
-              </a>
-            </li>
-            <li className="nav-item text-white">
-              <a className="nav-link" href="./contact.html">
-                Contact
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+      <Navbar />
       <div className="row" style={{ margin: "10%", marginBottom: 0 }}>
         <div className="col">
           <img
@@ -126,11 +65,11 @@ export default function Initiatives() {
             <li className="nav-item">
               <a
                 className="nav-link active"
-                id="hard-skills-tab"
+                id="skills-2020-tab"
                 data-toggle="tab"
-                href="#hard-skills"
+                href="#skills-2020"
                 role="tab"
-                aria-controls="hard-skills"
+                aria-controls="skills-2020"
                 aria-selected="true"
               >
                 2020-21
@@ -139,11 +78,11 @@ export default function Initiatives() {
             <li className="nav-item">
               <a
                 className="nav-link"
-                id="soft-skills-tab"
+                id="skills-2019-tab"
                 data-toggle="tab"
-                href="#soft-skills"
+                href="#skills-2019"
                 role="tab"
-                aria-controls="soft-skills"
+                aria-controls="skills-2019"
                 aria-selected="false"
               >
                 2019-20
@@ -152,11 +91,11 @@ export default function Initiatives() {
             <li className="nav-item">
               <a
                 className="nav-link"
-                id="test-skills-tab"
+                id="skills-2018-tab"
                 data-toggle="tab"
-                href="#test-skills"
+                href="#skills-2018"
                 role="tab"
-                aria-controls="test-skills"
+                aria-controls="skills-2018"
                 aria-selected="false"
               >
                 2018-19
@@ -165,105 +104,31 @@ export default function Initiatives() {
           </ul>
 
           <div className="tab-content" id="myTabContent">
-          <div
+            {/* <div
               className="tab-pane fade"
               id="skills-2021"
               role="tabpanel"
               aria-labelledby="skills-2021-tab"
             >
               <div className="card-deck">
-                <div className="card">
-                  <img
-                    className="card-img-top"
-                    src={hackdcovid}
-                    alt="Card image cap"
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">Hack-D-Covid</h5>
-                    <p className="card-text" style={{ textAlign: "justify" }}>
-                      Hack-D-Covid was a two-track competition hosted on Kaggle:
-                      the first track dealt with working with the X-Ray dataset
-                      to detect Covid-19 and the other track was an open-ended
-                      hackathon, with CORD-19 dataset.
-                    </p>
-                    <p className="card-text">
-                      23rd-24th October, 2020
-                      <small className="text-muted" />
-                    </p>
-                    <a
-                      className="card-text btn btn-dark text-light"
-                      href="https://www.kaggle.com/c/kjsce-hack-d-covid20-track1"
-                      role="button"
-                      target="_blank"
-                    >
-                      View on Kaggle &nbsp;
-                      <i className="fab fa-kaggle fa-1x"> </i>
-                    </a>
-                  </div>
-                </div>
-                <div className="card">
-                  <img
-                    className="card-img-top"
-                    src={ML101}
-                    alt="Card image cap"
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">ML-101</h5>
-                    <p className="card-text" style={{ textAlign: "justify" }}>
-                      In our first online student-led symposium on Microsoft
-                      Teams, an introduction to Machine Learning Algorithms like
-                      Linear Regression, Logistic Regression, Naive Bayes
-                      Algorithm, SVMs, Decision Trees and Neural Networks was
-                      given. Both mathemetical explanation and logical intuition
-                      was provided for every algorithm with proper visualization
-                      and implementation and relevant examples.
-                    </p>
-                    <p className="card-text">
-                      15th-16th August, 2020
-                      <small className="text-muted" />
-                    </p>
-                    <a
-                      className="card-text btn btn-dark text-light"
-                      href="https://github.com/smlra-kjsce/ML-101"
-                      role="button"
-                      target="_blank"
-                    >
-                      View on GitHub &nbsp;
-                      <i className="fab fa-github fa-1x"> </i>
-                    </a>
-                    <a
-                      className="card-text btn btn-dark text-light"
-                      href="https://www.youtube.com/playlist?list=PLNyf6p4HkSL9bMZlD8x9P1KC_rxmVW3zg"
-                      role="button"
-                      target="_blank"
-                    >
-                      View on YouTube &nbsp;
-                      <i className="fab fa-youtube fa-1x"> </i>
-                    </a>
-                  </div>
-                </div>
+                <Initiative />
+                <Initiative />
               </div>
-            </div>
+              <br />
+              <div className="card-deck">
+                <Initiative />
+              </div>
+            </div> */}
             <div
               className="tab-pane fade show active"
-              id="hard-skills"
+              id="skills-2020"
               role="tabpanel"
-              aria-labelledby="hard-skills-tab"
+              aria-labelledby="skills-2020-tab"
             >
               <div className="card-deck">
-                <div className="card">
-                  <img
-                    className="card-img-top"
-                    src={pytorch}
-                    alt="Card image cap"
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">
-                      PyTorch-101: Introduction to PyTorch
-                    </h5>
-                    <p className="card-text" style={{ textAlign: "justify" }}>
-                      {" "}
-                      SMLRA conducted a hands-on workshop on PyTorch, a
+                <Initiative
+                  title="PyTorch-101: Introduction to PyTorch"
+                  body="SMLRA conducted a hands-on workshop on PyTorch, a
                       rapidly-growing deep learning framework by Facebook AI
                       Research (FAIR) lab. PyTorch owes its popularity to its
                       Pythonic nature of coding and its latest mobile support,
@@ -271,73 +136,26 @@ export default function Initiatives() {
                       about tensor basics and operations, linear and logistic
                       regression, AutoGrad, neural networks and TensorBoard
                       usage in PyTorch. The event was concluded with a doubt
-                      clearing session.
-                    </p>
-                    <p className="card-text">
-                      1 March, 2021
-                      <small className="text-muted" />
-                    </p>
-                    <a
-                      className="card-text btn btn-dark text-light"
-                      href="https://github.com/smlra-kjsce/PyTorch-101"
-                      role="button"
-                      target="_blank"
-                    >
-                      View on GitHub &nbsp;
-                      <i className="fab fa-github fa-1x"> </i>
-                    </a>
-                    <a
-                      className="card-text btn btn-dark text-light"
-                      href="https://www.youtube.com/watch?v=RXLH7B6CcIM"
-                      role="button"
-                      target="_blank"
-                    >
-                      View on YouTube &nbsp;
-                      <i className="fab fa-youtube fa-1x"> </i>
-                    </a>
-                  </div>
-                </div>
-                <div className="card">
-                  <img
-                    className="card-img-top"
-                    src={meme}
-                    alt="Card image cap"
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">
-                      Paper Reading and Implementation of "Dank Learning:
-                      Generating Memes using Deep Neural Networks
-                    </h5>
-                    <p className="card-text" style={{ textAlign: "justify" }}>
-                      SMLRA conducted Research Paper Reading and Implementation
-                      Session on{" "}
-                      <a href="https://arxiv.org/pdf/1806.04510.pdf">
-                        <b>
-                          Dank Learning: Generating Memes Using Deep Neural
-                          Networks
-                        </b>
-                      </a>
-                      , where the authors present novel techniques to generate
-                      memes using LSTMs, Inception model, and Attention
-                      Mechanism. We discussed the important concepts of the
-                      paper and finally went on to demonstrate our
-                      implementation of the paper in PyTorch.
-                    </p>
-                    <p className="card-text">
-                      30th January, 2021
-                      <small className="text-muted" />
-                    </p>
-                    <a
-                      className="card-text btn btn-dark text-light"
-                      href="https://youtu.be/cWVyb2JBWgk"
-                      role="button"
-                      target="_blank"
-                    >
-                      View on YouTube &nbsp;
-                      <i className="fab fa-youtube fa-1x"> </i>
-                    </a>
-                  </div>
-                </div>
+                      clearing session."
+                  photo={pytorch}
+                  date="1st March, 2021"
+                  github="https://github.com/smlra-kjsce/PyTorch-101"
+                  youtube="https://www.youtube.com/watch?v=RXLH7B6CcIM"
+                ></Initiative>
+                <Initiative
+                  title="Paper Reading and Implementation of “Dank Learning:
+                  Generating Memes using Deep Neural Networks”"
+                  body="SMLRA conducted Research Paper Reading and Implementation
+                  Session on “Dank Learning: Generating Memes using Deep Neural Networks”
+                  , where the authors present novel techniques to generate
+                  memes using LSTMs, Inception model, and Attention
+                  Mechanism. We discussed the important concepts of the
+                  paper and finally went on to demonstrate our
+                  implementation of the paper in PyTorch."
+                  photo={meme}
+                  date="30th January, 2021"
+                  youtube="https://youtu.be/cWVyb2JBWgk"
+                ></Initiative>
               </div>
               <br />
               <div className="card-deck">
@@ -415,9 +233,9 @@ export default function Initiatives() {
             </div>
             <div
               className="tab-pane fade"
-              id="soft-skills"
+              id="skills-2019"
               role="tabpanel"
-              aria-labelledby="soft-skills-tab"
+              aria-labelledby="skills-2019-tab"
             >
               <div className="card-deck">
                 <div className="card">
@@ -608,9 +426,9 @@ export default function Initiatives() {
             </div>
             <div
               className="tab-pane fade"
-              id="test-skills"
+              id="skills-2018"
               role="tabpanel"
-              aria-labelledby="test-skills-tab"
+              aria-labelledby="skills-2018-tab"
             >
               <div className="card-deck">
                 <div className="card">
@@ -747,7 +565,6 @@ export default function Initiatives() {
                       22nd September, 2018
                       <small className="text-muted" />
                     </p>
-                    {/* <a class=" card-text btn btn-dark text-light href="#" role="button">View on GitHub</a> */}
                   </div>
                 </div>
               </div>
@@ -755,186 +572,7 @@ export default function Initiatives() {
           </div>
         </div>
       </div>
-      {/* <section class="init" style="padding-left: 5%;padding-right: 5%;margin-bottom: 5%;">
-        <label for="select" style="text-align: center;">Year:</label>
-        <select class="div-toggle" data-target=".my-info-1" style="margin-bottom: 3%;">
-            <option value="2018" data-show=".2018">2018</option>
-            <option value="2019" data-show=".2019">2019</option>
-            <option value="2020" data-show=".2020">2020</option>
-          </select>
-          
-          <div class="my-info-1">
-            <div class="2018 hide">
-                <div class="card-deck">
-                    <div class="card">
-                      <img class="card-img-top" src="..." alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">2018</h5>
-                        <p class="card-text">year is 2018</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <img class="card-img-top" src="..." alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">2018</h5>
-                        <p class="card-text">year is 2018</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                      </div>
-                    </div>
-                    
-                    </div>
-            </div>
-            <div class="2019 hide">
-                <div class="card-deck">
-                    <div class="card">
-                      <img class="card-img-top" src="..." alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">2019</h5>
-                        <p class="card-text">year is 2019</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <img class="card-img-top" src="..." alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">2019</h5>
-                        <p class="card-text">year is 2019</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                      </div>
-                    </div>
-            </div>
-            </div>
-            <div class="2020 hide">
-                <div class="card-deck">
-                    <div class="card">
-                      <img class="card-img-top" src="..." alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">2020</h5>
-                        <p class="card-text">year is 2020</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <img class="card-img-top" src="..." alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">2020</h5>
-                        <p class="card-text">year is 2020</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                      </div>
-                    </div>
-            </div>
-
-          </div>
-
-        
-          
-      </section> */}
-      <section
-        className="footer"
-        style={{ backgroundColor: "black", color: "white" }}
-      >
-        <footer
-          className="page-footer font-small stylish-color-dark pt-4"
-          style={{ backgroundColor: "black", color: "white" }}
-        >
-          <div
-            className="row"
-            style={{ marginLeft: "1px", marginRight: "15px" }}
-          >
-            <div className="col-md-4 mx-auto text-center">
-              <center>
-                <a className="navbar-brand" href="/index.html">
-                  <img
-                    src="./Images/pic.png"
-                    alt="smlra"
-                    style={{ width: "20%", height: "20%" }}
-                  />
-                </a>
-              </center>
-              <p>
-                Somaiya Machine Learning Research Association
-                <br />
-                The Artificial Intelligence Community of KJSCE
-              </p>
-            </div>
-            <div className="col-md-4 mx-auto text-center">
-              <br />
-              <p style={{ color: "black", fontSize: "90%" }}>
-                <a href="./contact.html" style={{ textDecoration: "none" }}>
-                  <i className="fas fa-map-marker mx-0" /> KJSCE, Mumbai,
-                  Maharashtra, India
-                </a>{" "}
-              </p>
-              <br />
-              <p style={{ color: "black", fontSize: "90%" }}>
-                <a
-                  href="mailto: smlra-kjsce@somaiya.edu"
-                  style={{ textDecoration: "none" }}
-                >
-                  <i className="fas fa-envelope" />{" "}
-                  <u>smlra-kjsce@somaiya.edu</u>
-                </a>{" "}
-              </p>
-            </div>
-            <div className="col-md-4 mx-auto">
-              <h5 style={{ textAlign: "center" }}>Contact Us</h5>
-              <br />
-              <ul
-                className="list-unstyled list-inline text-center"
-                style={{ color: "#0bebf3" }}
-              >
-                <li className="list-inline-item">
-                  <a
-                    className="btn-floating btn-dribbble mx-1"
-                    href="https://github.com/smlra-kjsce"
-                  >
-                    <i className="fab fa-github fa-2x"> </i>
-                  </a>
-                </li>
-                <li className="list-inline-item">
-                  <a
-                    className="btn-floating btn-dribbble mx-1"
-                    href="https://smlra-kjsce.medium.com"
-                  >
-                    <i className="fab fa-medium fa-2x"> </i>
-                  </a>
-                </li>
-                <li className="list-inline-item" style={{ color: "#0bebf3" }}>
-                  <a
-                    className="btn-floating btn-tw mx-1"
-                    href="https://twitter.com/smlra_kjsce"
-                  >
-                    <i className="fab fa-twitter fa-2x"> </i>
-                  </a>
-                </li>
-                <li className="list-inline-item">
-                  <a
-                    className="btn-floating btn-li mx-1"
-                    href="https://www.linkedin.com/company/smlra-kjsce/"
-                  >
-                    <i className="fab fa-linkedin fa-2x"> </i>
-                  </a>
-                </li>
-                <li className="list-inline-item">
-                  <a
-                    className="btn-floating btn-fb mx-1"
-                    href="https://www.facebook.com/smlrakjsce/"
-                  >
-                    <i className="fab fa-facebook fa-2x"> </i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="footer-copyright text-center py-3">
-            <p>
-              © 2021 Copyright. Developed and Maintained by{" "}
-              <strong style={{ color: "wheat" }}>SMLRA</strong>
-            </p>
-          </div>
-        </footer>
-      </section>
+      <Footer />
     </div>
   );
 }
