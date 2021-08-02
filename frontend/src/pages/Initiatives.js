@@ -12,6 +12,14 @@ import pytorch from "../static/Images/Events/pytorch.jpeg";
 import ML101 from "../static/Images/Events/ML101.PNG";
 import pieandai from "../static/Images/Events/pie-and-ai-1.jpeg";
 import NLP101 from "../static/Images/Events/NLP-101.jpg";
+import MLcyber from "../static/Images/Events/ML-Cyber.jpeg";
+import resnet from "../static/Images/Events/resnet.jpg";
+import GANs from "../static/Images/Events/GANs.jpg";
+import mldl101 from "../static/Images/Events/mldl101.jpg";
+import rnn from "../static/Images/Events/rnn.png";
+import nlp from "../static/Images/Events/nlp.png";
+import rishabh from "../static/Images/Events/rishabh.jpg";
+import alexnet from "../static/Images/Events/alexnet.png";
 
 export default function Initiatives() {
   return (
@@ -159,76 +167,30 @@ export default function Initiatives() {
               </div>
               <br />
               <div className="card-deck">
-                <div className="card">
-                  <img
-                    className="card-img-top"
-                    src={hackdcovid}
-                    alt="Card image cap"
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">Hack-D-Covid</h5>
-                    <p className="card-text" style={{ textAlign: "justify" }}>
-                      Hack-D-Covid was a two-track competition hosted on Kaggle:
-                      the first track dealt with working with the X-Ray dataset
-                      to detect Covid-19 and the other track was an open-ended
-                      hackathon, with CORD-19 dataset.
-                    </p>
-                    <p className="card-text">
-                      23rd-24th October, 2020
-                      <small className="text-muted" />
-                    </p>
-                    <a
-                      className="card-text btn btn-dark text-light"
-                      href="https://www.kaggle.com/c/kjsce-hack-d-covid20-track1"
-                      role="button"
-                      target="_blank"
-                    >
-                      View on Kaggle &nbsp;
-                      <i className="fab fa-kaggle fa-1x"> </i>
-                    </a>
-                  </div>
-                </div>
-                <div className="card">
-                  <img
-                    className="card-img-top"
-                    src={ML101}
-                    alt="Card image cap"
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">ML-101</h5>
-                    <p className="card-text" style={{ textAlign: "justify" }}>
-                      In our first online student-led symposium on Microsoft
-                      Teams, an introduction to Machine Learning Algorithms like
-                      Linear Regression, Logistic Regression, Naive Bayes
-                      Algorithm, SVMs, Decision Trees and Neural Networks was
-                      given. Both mathemetical explanation and logical intuition
-                      was provided for every algorithm with proper visualization
-                      and implementation and relevant examples.
-                    </p>
-                    <p className="card-text">
-                      15th-16th August, 2020
-                      <small className="text-muted" />
-                    </p>
-                    <a
-                      className="card-text btn btn-dark text-light"
-                      href="https://github.com/smlra-kjsce/ML-101"
-                      role="button"
-                      target="_blank"
-                    >
-                      View on GitHub &nbsp;
-                      <i className="fab fa-github fa-1x"> </i>
-                    </a>
-                    <a
-                      className="card-text btn btn-dark text-light"
-                      href="https://www.youtube.com/playlist?list=PLNyf6p4HkSL9bMZlD8x9P1KC_rxmVW3zg"
-                      role="button"
-                      target="_blank"
-                    >
-                      View on YouTube &nbsp;
-                      <i className="fab fa-youtube fa-1x"> </i>
-                    </a>
-                  </div>
-                </div>
+                <Initiative
+                  title="Hack-D-Covid"
+                  body="Hack-D-Covid was a two-track competition hosted on Kaggle:
+                  the first track dealt with working with the X-Ray dataset
+                  to detect Covid-19 and the other track was an open-ended
+                  hackathon, with CORD-19 dataset."
+                  photo={hackdcovid}
+                  date="23rd-24th October, 2020"
+                  kaggle="https://www.kaggle.com/c/kjsce-hack-d-covid20-track1"
+                ></Initiative>
+                <Initiative
+                  title="ML-101"
+                  body="In our first online student-led symposium on Microsoft
+                  Teams, an introduction to Machine Learning Algorithms like
+                  Linear Regression, Logistic Regression, Naive Bayes
+                  Algorithm, SVMs, Decision Trees and Neural Networks was
+                  given. Both mathemetical explanation and logical intuition
+                  was provided for every algorithm with proper visualization
+                  and implementation and relevant examples."
+                  photo={ML101}
+                  date="15th-16th August, 2020"
+                  github="https://github.com/smlra-kjsce/ML-101"
+                  youtube="https://www.youtube.com/playlist?list=PLNyf6p4HkSL9bMZlD8x9P1KC_rxmVW3zg"
+                ></Initiative>
               </div>
             </div>
             <div
@@ -238,72 +200,33 @@ export default function Initiatives() {
               aria-labelledby="skills-2019-tab"
             >
               <div className="card-deck">
-                <div className="card">
-                  <img
-                    className="card-img-top"
-                    src={pieandai}
-                    alt="Card image cap"
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">
-                      Pie &amp; AI - Navi Mumbai: The Past &amp; Future of AI
-                    </h5>
-                    <p className="card-text" style={{ textAlign: "justify" }}>
-                      SMLRA's first "Pie &amp; AI session" in collaboration with
-                      deeplearning.ai with guest speaker{" "}
-                      <a
-                        href="https://www.linkedin.com/in/s-dsouza/?originalSubdomain=in"
-                        target="_blank"
-                      >
-                        Mr. Shaun D'Souza
-                      </a>
-                      .
-                    </p>
-                    <p className="card-text">
-                      6th June, 2020
-                      <small className="text-muted" />
-                    </p>
-                    <a
-                      className=" card-text btn btn-dark text-light"
-                      href="https://www.youtube.com/watch?v=QPPc8V-Zg4w"
-                      role="button"
-                      target="_blank"
-                    >
-                      View on YouTube &nbsp;
-                      <i className="fab fa-youtube fa-1x"> </i>
-                    </a>
-                  </div>
-                </div>
-                <div className="card">
-                  <img
-                    className="card-img-top"
-                    src={NLP101}
-                    alt="Card image cap"
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">Deep Learning in NLP-101</h5>
-                    <p className="card-text" style={{ textAlign: "justify" }}>
-                      In this student-led symposium, an introduction to
-                      word2vec, GloVe, RNNs, LSTMs, and ULMFiT was given.
-                    </p>
-                    <p className="card-text">
-                      7th March, 2020
-                      <small className="text-muted" />
-                    </p>
-                    <a
-                      className="btn btn-dark card-text text-light"
-                      href="https://github.com/smlra-kjsce/DL-in-NLP-101"
-                      role="button"
-                      target="_blank"
-                    >
-                      View on GitHub &nbsp;
-                      <i className="fab fa-github fa-1x"> </i>
-                    </a>
-                  </div>
-                </div>
+                <Initiative
+                  title="Pie &amp; AI - Navi Mumbai: The Past &amp; Future of AI"
+                  body="SMLRA's first “Pie &amp; AI” session in collaboration with
+                  deeplearning.ai with guest speaker “Mr. Shaun D'Souza”."
+                  photo={pieandai}
+                  date="6th June, 2020"
+                  youtube="https://www.youtube.com/watch?v=QPPc8V-Zg4w"
+                ></Initiative>
+                <Initiative
+                  title="Deep Learning in NLP-101"
+                  body="In this student-led symposium, an introduction to
+                  word2vec, GloVe, RNNs, LSTMs, and ULMFiT was given."
+                  photo={NLP101}
+                  date="7th March, 2020"
+                  github="https://github.com/smlra-kjsce/DL-in-NLP-101"
+                ></Initiative>
               </div>
               <br />
               <div className="card-deck">
+                <Initiative
+                  title="Deep Learning in NLP-101"
+                  body="In this student-led symposium, an introduction to
+                  word2vec, GloVe, RNNs, LSTMs, and ULMFiT was given."
+                  photo={NLP101}
+                  date="7th March, 2020"
+                  github="https://github.com/smlra-kjsce/DL-in-NLP-101"
+                ></Initiative>
                 <div className="card">
                   <img
                     className="card-img-top"
