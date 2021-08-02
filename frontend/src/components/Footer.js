@@ -58,7 +58,7 @@ export default function Footer() {
                   className="btn-floating btn-dribbble mx-1"
                   href="https://github.com/smlra-kjsce"
                 >
-                  <i className="fa fa-github fa-2x"> </i>
+                  <i className="fab fa-github fa-2x"> </i>
                 </a>
               </li>
               <li className="list-inline-item">
@@ -66,7 +66,7 @@ export default function Footer() {
                   className="btn-floating btn-dribbble mx-1"
                   href="https://smlra-kjsce.medium.com"
                 >
-                  <i className="fa fa-medium fa-2x"> </i>
+                  <i className="fab fa-medium fa-2x"> </i>
                 </a>
               </li>
               <li className="list-inline-item" style={{ color: "#0bebf3" }}>
@@ -74,7 +74,7 @@ export default function Footer() {
                   className="btn-floating btn-tw mx-1"
                   href="https://twitter.com/smlra_kjsce"
                 >
-                  <i className="fa fa-twitter fa-2x"> </i>
+                  <i className="fab fa-twitter fa-2x"> </i>
                 </a>
               </li>
               <li className="list-inline-item">
@@ -82,7 +82,7 @@ export default function Footer() {
                   className="btn-floating btn-li mx-1"
                   href="https://www.linkedin.com/company/smlra-kjsce/"
                 >
-                  <i className="fa fa-linkedin fa-2x"> </i>
+                  <i className="fab fa-linkedin fa-2x"> </i>
                 </a>
               </li>
               <li className="list-inline-item">
@@ -90,7 +90,7 @@ export default function Footer() {
                   className="btn-floating btn-fb mx-1"
                   href="https://www.facebook.com/smlrakjsce/"
                 >
-                  <i className="fa fa-facebook fa-2x"> </i>
+                  <i className="fab fa-facebook fa-2x"> </i>
                 </a>
               </li>
             </ul>
