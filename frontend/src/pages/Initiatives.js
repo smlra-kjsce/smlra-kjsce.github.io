@@ -112,6 +112,19 @@ export default function Initiatives() {
           >
             <li className="nav-item">
               <a
+                className="nav-link"
+                id="skills-2021-tab"
+                data-toggle="tab"
+                href="#skills-2021"
+                role="tab"
+                aria-controls="skills-2021"
+                aria-selected="false"
+              >
+                2021-22
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
                 className="nav-link active"
                 id="hard-skills-tab"
                 data-toggle="tab"
@@ -150,7 +163,87 @@ export default function Initiatives() {
               </a>
             </li>
           </ul>
+
           <div className="tab-content" id="myTabContent">
+          <div
+              className="tab-pane fade"
+              id="skills-2021"
+              role="tabpanel"
+              aria-labelledby="skills-2021-tab"
+            >
+              <div className="card-deck">
+                <div className="card">
+                  <img
+                    className="card-img-top"
+                    src={hackdcovid}
+                    alt="Card image cap"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">Hack-D-Covid</h5>
+                    <p className="card-text" style={{ textAlign: "justify" }}>
+                      Hack-D-Covid was a two-track competition hosted on Kaggle:
+                      the first track dealt with working with the X-Ray dataset
+                      to detect Covid-19 and the other track was an open-ended
+                      hackathon, with CORD-19 dataset.
+                    </p>
+                    <p className="card-text">
+                      23rd-24th October, 2020
+                      <small className="text-muted" />
+                    </p>
+                    <a
+                      className="card-text btn btn-dark text-light"
+                      href="https://www.kaggle.com/c/kjsce-hack-d-covid20-track1"
+                      role="button"
+                      target="_blank"
+                    >
+                      View on Kaggle &nbsp;
+                      <i className="fab fa-kaggle fa-1x"> </i>
+                    </a>
+                  </div>
+                </div>
+                <div className="card">
+                  <img
+                    className="card-img-top"
+                    src={ML101}
+                    alt="Card image cap"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">ML-101</h5>
+                    <p className="card-text" style={{ textAlign: "justify" }}>
+                      In our first online student-led symposium on Microsoft
+                      Teams, an introduction to Machine Learning Algorithms like
+                      Linear Regression, Logistic Regression, Naive Bayes
+                      Algorithm, SVMs, Decision Trees and Neural Networks was
+                      given. Both mathemetical explanation and logical intuition
+                      was provided for every algorithm with proper visualization
+                      and implementation and relevant examples.
+                    </p>
+                    <p className="card-text">
+                      15th-16th August, 2020
+                      <small className="text-muted" />
+                    </p>
+                    <a
+                      className="card-text btn btn-dark text-light"
+                      href="https://github.com/smlra-kjsce/ML-101"
+                      role="button"
+                      target="_blank"
+                    >
+                      View on GitHub &nbsp;
+                      <i className="fab fa-github fa-1x"> </i>
+                    </a>
+                    <a
+                      className="card-text btn btn-dark text-light"
+                      href="https://www.youtube.com/playlist?list=PLNyf6p4HkSL9bMZlD8x9P1KC_rxmVW3zg"
+                      role="button"
+                      target="_blank"
+                    >
+                      View on YouTube &nbsp;
+                      <i className="fab fa-youtube fa-1x"> </i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div
               className="tab-pane fade show active"
               id="hard-skills"
