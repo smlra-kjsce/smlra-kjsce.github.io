@@ -61,29 +61,29 @@ export default function Team() {
         </div>
         <h1 className="text-center">LEAD MENTORS</h1>
         <div className="row" style={{ marginTop: "3%" }}>
-          <MemberProfile
-            name="Arghyadeep Das"
-            photo={arghyadeep}
-            instagram="https://www.instagram.com/third_root_of_quadratic_eqn"
-            linkedin="https://www.linkedin.com/in/arghyadeep-das/"
-            github="https://www.github.com/arghyadeep99"
-            coltype="col-lg-6"
-          ></MemberProfile>
-          <MemberProfile
-            name="Nikhil Bhardwaj"
-            photo={nikhil}
-            instagram="https://www.instagram.com/pahari.momo"
-            linkedin="https://www.linkedin.com/in/nik9hil/"
-            github="https://www.github.com/nik9hil"
-            coltype="col-lg-6"
-          ></MemberProfile>
+        <MemberProfile
+                    name="Mayank Chowdhary"
+                    photo={mayank}
+                    instagram="https://www.instagram.com/mayank06302618/"
+                    linkedin="https://www.linkedin.com/in/mayankchowdhary/"
+                    github="https://github.com/m607stars"
+                    coltype="col-md-6"
+                  ></MemberProfile>
+                  <MemberProfile
+                    name="Rahil Parikh"
+                    photo={rahil}
+                    instagram="hhttps://www.instagram.com/rahil_parikh_/"
+                    linkedin="https://www.linkedin.com/in/rahilparikh007"
+                    github="https://github.com/Rahil-Parikh"
+                    coltype="col-md-6"
+                  ></MemberProfile>
         </div>
         <h1 className="text-center" style={{ margin: "3%" }}>
           COMMUNITY MENTORS
         </h1>
         <div className="row" style={{ marginTop: "5%" }}>
           <MemberProfile
-            name="Mayank Chowdhary"
+            name="Jatin Nainani"
             photo={mayank}
             instagram="https://www.instagram.com/mayank06302618/"
             linkedin="https://www.linkedin.com/in/mayankchowdhary/"
@@ -91,7 +91,7 @@ export default function Team() {
             coltype="col-md-4"
           ></MemberProfile>
           <MemberProfile
-            name="Tejas Khanolkar"
+            name="Riya Gori"
             photo={tejas}
             instagram="https://www.instagram.com/tejas.00/"
             linkedin="https://www.linkedin.com/in/tejas-khanolkar-a04733192/"
@@ -99,7 +99,7 @@ export default function Team() {
             coltype="col-md-4"
           ></MemberProfile>
           <MemberProfile
-            name="Rahil Parikh"
+            name="Burhanuddin Rangwala"
             photo={rahil}
             instagram="hhttps://www.instagram.com/rahil_parikh_/"
             linkedin="https://www.linkedin.com/in/rahilparikh007"
@@ -107,17 +107,24 @@ export default function Team() {
             coltype="col-md-4"
           ></MemberProfile>
         </div>
-        <h1 className="text-center" style={{ margin: "3%" }}>
-          AI PROMOTER
-        </h1>
-        <div>
-          <MemberProfile
-            name="Aayush Chheda"
-            photo={aayush}
-            linkedin="https://www.linkedin.com/in/aayush-chheda-6049461a9/"
-            github="https://github.com/Aayush-Chheda"
-            coltype="col-lg-12"
-          ></MemberProfile>
+        <h1 className="text-center">AI PROMOTERS</h1>
+        <div className="row" style={{ marginTop: "3%" }}>
+        <MemberProfile
+                    name="Jenson Joseph"
+                    photo={mayank}
+                    instagram="https://www.instagram.com/mayank06302618/"
+                    linkedin="https://www.linkedin.com/in/mayankchowdhary/"
+                    github="https://github.com/m607stars"
+                    coltype="col-md-6"
+                  ></MemberProfile>
+                  <MemberProfile
+                    name="Shubham Varma"
+                    photo={rahil}
+                    instagram="hhttps://www.instagram.com/rahil_parikh_/"
+                    linkedin="https://www.linkedin.com/in/rahilparikh007"
+                    github="https://github.com/Rahil-Parikh"
+                    coltype="col-md-6"
+                  ></MemberProfile>
         </div>
         <br />
         <br />
@@ -160,15 +167,7 @@ export default function Team() {
                     instagram="https://www.instagram.com/third_root_of_quadratic_eqn"
                     linkedin="https://www.linkedin.com/in/arghyadeep-das/"
                     github="https://www.github.com/arghyadeep99"
-                    coltype="col-lg-6"
-                  ></MemberProfile>
-                  <MemberProfile
-                    name="Nikhil Bhardwaj"
-                    photo={nikhil}
-                    instagram="https://www.instagram.com/pahari.momo"
-                    linkedin="https://www.linkedin.com/in/nik9hil/"
-                    github="https://www.github.com/nik9hil"
-                    coltype="col-lg-6"
+                    coltype="col-lg-12"
                   ></MemberProfile>
                 </div>
                 <h1 className="text-center" style={{ margin: "3%" }}>
@@ -334,7 +333,7 @@ export default function Team() {
                   ></MemberProfile>
                   <MemberProfile
                     name="Satyajit Kamble"
-                    photo={sarfaraz}
+                    photo={satyajit}
                     instagram="https://www.instagram.com/satya_2797/"
                     linkedin="https://www.linkedin.com/in/satyajitsk/"
                     github="https://github.com/satyaSK"

@@ -31,7 +31,7 @@ export default function Footer() {
           <div className="col-md-4 mx-auto text-center">
             <br />
             <p style={{ color: "black", fontSize: "90%" }}>
-              <a href="./contact.html" style={{ textDecoration: "none" }}>
+              <a href="./contact" style={{ textDecoration: "none" }}>
                 <i className="fa fa-map-marker mx-0" /> KJSCE, Mumbai,
                 Maharashtra, India
               </a>{" "}
@@ -55,6 +55,14 @@ export default function Footer() {
             >
               <li className="list-inline-item">
                 <a
+                  className="btn-floating btn-fb mx-1"
+                  href="https://discord.gg/qmXk6bMc"
+                >
+                  <i className="fab fa-discord fa-2x"> </i>
+                </a>
+              </li>
+              <li className="list-inline-item">
+                <a
                   className="btn-floating btn-dribbble mx-1"
                   href="https://github.com/smlra-kjsce"
                 >
@@ -67,6 +75,14 @@ export default function Footer() {
                   href="https://smlra-kjsce.medium.com"
                 >
                   <i className="fab fa-medium fa-2x"> </i>
+                </a>
+              </li>
+              <li className="list-inline-item">
+                <a
+                  className="btn-floating btn-fb mx-1"
+                  href="https://www.instagram.com/smlra_kjsce/"
+                >
+                  <i className="fab fa-instagram fa-2x"> </i>
                 </a>
               </li>
               <li className="list-inline-item" style={{ color: "#0bebf3" }}>
@@ -85,20 +101,12 @@ export default function Footer() {
                   <i className="fab fa-linkedin fa-2x"> </i>
                 </a>
               </li>
-              <li className="list-inline-item">
-                <a
-                  className="btn-floating btn-fb mx-1"
-                  href="https://www.facebook.com/smlrakjsce/"
-                >
-                  <i className="fab fa-facebook fa-2x"> </i>
-                </a>
-              </li>
             </ul>
           </div>
         </div>
         <div className="footer-copyright text-center py-3">
           <p>
-            © 2021 Copyright. Developed and Maintained by{" "}
+            © 2021. Developed and Maintained by{" "}
             <strong style={{ color: "wheat" }}>SMLRA</strong>
           </p>
         </div>
