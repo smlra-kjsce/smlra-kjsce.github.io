@@ -22,7 +22,7 @@ export default function Team() {
       <div className="row" style={{ margin: "10%", marginBottom: 0 }}>
         <div className="col">
           <img
-            src="./Images/team3.svg"
+            src={team3}
             alt="blog"
             style={{ width: "100%", height: "80%" }}
           />
@@ -47,7 +47,7 @@ export default function Team() {
             style={{ textAlign: "center", marginBottom: "5%" }}
           >
             <img
-              src="./Images/profile_pics/swati maam.jpg"
+              src={swatimaam}
               className="mx-auto rounded-circle"
               style={{ verticalAlign: "auto", width: "13rem" }}
             />
@@ -79,7 +79,7 @@ export default function Team() {
             style={{ textAlign: "center", marginBottom: "5%" }}
           >
             <img
-              src="./Images/profile_pics/vaibhav sir.jpg"
+              src={vaibhavsir}
               className="mx-auto rounded-circle"
               style={{ width: "13rem", height: "13rem" }}
             />
@@ -121,7 +121,7 @@ export default function Team() {
             style={{ textAlign: "center", marginBottom: "5%" }}
           >
             <img
-              src="./Images/profile_pics/Arghyadeep1.jpg"
+              src={arghyadeep}
               className="mx-auto rounded-circle"
               style={{ verticalAlign: "auto", width: "13rem" }}
             />
@@ -160,7 +160,7 @@ export default function Team() {
             style={{ textAlign: "center", marginBottom: "5%" }}
           >
             <img
-              src="./Images/profile_pics/Nikhil.jpeg"
+              src={nikhil}
               className="mx-auto rounded-circle"
               style={{ width: "13rem", height: "13rem" }}
             />
@@ -198,7 +198,7 @@ export default function Team() {
             style={{ textAlign: "center", marginBottom: "5%" }}
           >
             <img
-              src="./Images/profile_pics/Mayank.jpg"
+              src={mayank}
               className="mx-auto rounded-circle"
               style={{ width: "13rem", height: "13rem" }}
             />
@@ -234,7 +234,7 @@ export default function Team() {
             style={{ textAlign: "center", marginBottom: "5%" }}
           >
             <img
-              src="./Images/profile_pics/tejas2.jpg"
+              src={tejas}
               className="mx-auto rounded-circle"
               style={{ width: "13rem", height: "13rem" }}
             />
@@ -270,7 +270,7 @@ export default function Team() {
             style={{ textAlign: "center", marginBottom: "5%" }}
           >
             <img
-              src="./Images/profile_pics/Rahil.jpg"
+              src={rahil}
               className="mx-auto rounded-circle"
               style={{ width: "13rem", height: "13rem" }}
             />
@@ -310,7 +310,7 @@ export default function Team() {
           style={{ textAlign: "center", marginBottom: "5%" }}
         >
           <img
-            src="./Images/profile_pics/Aayush.jpg"
+            src={aayush}
             className="mx-auto rounded-circle"
             style={{ width: "13rem", height: "13rem" }}
           />
@@ -372,7 +372,7 @@ export default function Team() {
                   style={{ textAlign: "center", marginBottom: "5%" }}
                 >
                   <img
-                    src="Images\profile_pics\jasdeep.jpeg"
+                    src={jasdeep}
                     className="mx-auto rounded-circle"
                     style={{ width: "13rem", height: "13rem" }}
                   />
@@ -403,7 +403,7 @@ export default function Team() {
                     style={{ textAlign: "center", marginBottom: "5%" }}
                   >
                     <img
-                      src="./Images/profile_pics/Arghyadeep1.jpg"
+                      src={arghyadeep}
                       className="mx-auto rounded-circle"
                       style={{ verticalAlign: "auto", width: "13rem" }}
                     />
@@ -445,7 +445,7 @@ export default function Team() {
                     style={{ textAlign: "center", marginBottom: "5%" }}
                   >
                     <img
-                      src="./Images/profile_pics/Nikhil.jpeg"
+                      src={nikhil}
                       className="mx-auto rounded-circle"
                       style={{ width: "13rem", height: "13rem" }}
                     />
@@ -487,7 +487,7 @@ export default function Team() {
                     style={{ textAlign: "center", marginBottom: "5%" }}
                   >
                     <img
-                      src="./Images/profile_pics/Mayank.jpg"
+                      src={mayank}
                       className="mx-auto rounded-circle"
                       style={{ width: "13rem", height: "13rem" }}
                     />
@@ -526,7 +526,7 @@ export default function Team() {
                     style={{ textAlign: "center", marginBottom: "5%" }}
                   >
                     <img
-                      src="./Images/profile_pics/Rahil.jpg"
+                      src={rahil}
                       className="mx-auto rounded-circle"
                       style={{ width: "13rem", height: "13rem" }}
                     />
@@ -599,7 +599,7 @@ export default function Team() {
                       style={{ textAlign: "center", marginBottom: "5%" }}
                     >
                       <img
-                        src="Images\profile_pics\sarfaraz.jpeg"
+                        src={sarfaraz}
                         className="mx-auto rounded-circle"
                         style={{ width: "13rem", height: "13rem" }}
                       />
@@ -638,7 +638,7 @@ export default function Team() {
                       style={{ textAlign: "center", marginBottom: "5%" }}
                     >
                       <img
-                        src="Images\profile_pics\satyajit.jpg"
+                        src={satyajit}
                         className="mx-auto rounded-circle"
                         style={{ width: "13rem", height: "13rem" }}
                       />
@@ -677,7 +677,7 @@ export default function Team() {
                       style={{ textAlign: "center", marginBottom: "5%" }}
                     >
                       <img
-                        src="Images\profile_pics\jasdeep.jpeg"
+                        src={jasdeep}
                         className="mx-auto rounded-circle"
                         style={{ width: "13rem", height: "13rem" }}
                       />
