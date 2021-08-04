@@ -4,15 +4,24 @@ import Footer from "../components/Footer";
 import MemberProfile from "../components/MemberProfile";
 
 import team3 from "../static/Images/team3.svg";
-import jasdeep from "../static/Images/profile_pics/jasdeep.jpeg";
+
 import swatimaam from "../static/Images/profile_pics/swati maam.jpg";
 import vaibhavsir from "../static/Images/profile_pics/vaibhav sir.jpg";
-import arghyadeep from "../static/Images/profile_pics/Arghyadeep1.jpg";
+
+import shubham from "../static/Images/profile_pics/shubham.jpg";
+import jatin from "../static/Images/profile_pics/jatin.png";
+import jenson from "../static/Images/profile_pics/jenson.jpg";
+import riya from "../static/Images/profile_pics/riya.png";
+import burhanuddin from "../static/Images/profile_pics/burhanuddin.png";
+
+import arghyadeep from "../static/Images/profile_pics/Arghyadeep.jpg";
 import nikhil from "../static/Images/profile_pics/Nikhil.jpeg";
 import mayank from "../static/Images/profile_pics/Mayank.jpg";
 import rahil from "../static/Images/profile_pics/Rahil.jpg";
-import tejas from "../static/Images/profile_pics/tejas2.jpg";
+import tejas from "../static/Images/profile_pics/tejas.jpg";
 import aayush from "../static/Images/profile_pics/Aayush.jpg";
+
+import jasdeep from "../static/Images/profile_pics/jasdeep.jpeg";
 import sarfaraz from "../static/Images/profile_pics/sarfaraz.jpeg";
 import satyajit from "../static/Images/profile_pics/satyajit.jpg";
 
@@ -84,26 +93,25 @@ export default function Team() {
         <div className="row" style={{ marginTop: "5%" }}>
           <MemberProfile
             name="Jatin Nainani"
-            photo={mayank}
-            instagram="https://www.instagram.com/mayank06302618/"
-            linkedin="https://www.linkedin.com/in/mayankchowdhary/"
-            github="https://github.com/m607stars"
+            photo={jatin}
+            instagram="https://www.instagram.com/jatinnainani56/"
+            linkedin="https://www.linkedin.com/in/jatin-nainani-a6b2331b3/"
+            github="https://github.com/NainaniJatinZ"
             coltype="col-md-4"
           ></MemberProfile>
           <MemberProfile
             name="Riya Gori"
-            photo={tejas}
-            instagram="https://www.instagram.com/tejas.00/"
-            linkedin="https://www.linkedin.com/in/tejas-khanolkar-a04733192/"
-            github="https://github.com/tejas2008"
+            photo={riya}
+            instagram="https://www.instagram.com/riya_gori/"
+            linkedin="https://www.linkedin.com/in/riya-gori/"
+            github="https://github.com/riyagori1203"
             coltype="col-md-4"
           ></MemberProfile>
           <MemberProfile
             name="Burhanuddin Rangwala"
-            photo={rahil}
-            instagram="hhttps://www.instagram.com/rahil_parikh_/"
-            linkedin="https://www.linkedin.com/in/rahilparikh007"
-            github="https://github.com/Rahil-Parikh"
+            photo={burhanuddin}
+            linkedin="https://www.linkedin.com/in/burhanuddin-rangwala-33a07a1a0/"
+            github="https://github.com/bamblebam"
             coltype="col-md-4"
           ></MemberProfile>
         </div>
@@ -111,18 +119,17 @@ export default function Team() {
         <div className="row" style={{ marginTop: "3%" }}>
         <MemberProfile
                     name="Jenson Joseph"
-                    photo={mayank}
-                    instagram="https://www.instagram.com/mayank06302618/"
-                    linkedin="https://www.linkedin.com/in/mayankchowdhary/"
-                    github="https://github.com/m607stars"
+                    photo={jenson}
+                    linkedin="https://www.linkedin.com/in/jenson-joseph-248479219/"
+                    github="https://github.com/JJsupercoder"
                     coltype="col-md-6"
                   ></MemberProfile>
                   <MemberProfile
                     name="Shubham Varma"
-                    photo={rahil}
-                    instagram="hhttps://www.instagram.com/rahil_parikh_/"
-                    linkedin="https://www.linkedin.com/in/rahilparikh007"
-                    github="https://github.com/Rahil-Parikh"
+                    photo={shubham}
+                    instagram="https://www.instagram.com/shubham17varma/"
+                    linkedin="https://www.linkedin.com/in/shubham-varma-r17092001/"
+                    github="https://github.com/shubham17varma"
                     coltype="col-md-6"
                   ></MemberProfile>
         </div>
