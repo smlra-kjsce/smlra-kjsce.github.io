@@ -1,10 +1,10 @@
 import React from "react";
+
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Initiative from "../components/Initiative";
-import "../static/css/style.css";
-import pic from "../static/Images/pic.png";
 
+import "../static/css/style.css";
 import meme from "../static/Images/Events/meme.png";
 import teach from "../static/Images/teach.svg";
 import hackdcovid from "../static/Images/Events/hack-d-covid.jpeg";

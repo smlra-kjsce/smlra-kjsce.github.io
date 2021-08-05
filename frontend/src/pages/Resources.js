@@ -42,19 +42,6 @@ export default function Resources() {
             role="tablist"
             style={{ marginBottom: "5%" }}
           >
-            {/* <li className="nav-item">
-              <a
-                className="nav-link"
-                id="skills-2021-tab"
-                data-toggle="tab"
-                href="#skills-2021"
-                role="tab"
-                aria-controls="skills-2021"
-                aria-selected="false"
-              >
-                2021-22
-              </a>
-            </li> */}
             <li className="nav-item">
               <a
                 className="nav-link active"
@@ -97,21 +84,6 @@ export default function Resources() {
           </ul>
 
           <div className="tab-content" id="myTabContent">
-            {/* <div
-              className="tab-pane fade"
-              id="skills-2021"
-              role="tabpanel"
-              aria-labelledby="skills-2021-tab"
-            >
-              <div className="card-deck">
-                <Initiative />
-                <Initiative />
-              </div>
-              <br />
-              <div className="card-deck">
-                <Initiative />
-              </div>
-            </div> */}
             <div
               className="tab-pane fade show active"
               id="tutorials"

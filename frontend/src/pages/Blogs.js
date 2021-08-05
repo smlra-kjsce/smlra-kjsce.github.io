@@ -1,7 +1,9 @@
 import React from "react";
+
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Blog from "../components/Blog";
+
 import "../static/css/style.css";
 import blog from "../static/Images/blog.svg";
 import blog1 from "../static/Images/blog1_img.PNG";

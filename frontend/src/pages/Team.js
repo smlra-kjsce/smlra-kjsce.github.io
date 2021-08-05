@@ -1,4 +1,5 @@
 import React from "react";
+
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import MemberProfile from "../components/MemberProfile";
@@ -70,22 +71,22 @@ export default function Team() {
         </div>
         <h1 className="text-center">LEAD MENTORS</h1>
         <div className="row" style={{ marginTop: "3%" }}>
-        <MemberProfile
-                    name="Mayank Chowdhary"
-                    photo={mayank}
-                    instagram="https://www.instagram.com/mayank06302618/"
-                    linkedin="https://www.linkedin.com/in/mayankchowdhary/"
-                    github="https://github.com/m607stars"
-                    coltype="col-md-6"
-                  ></MemberProfile>
-                  <MemberProfile
-                    name="Rahil Parikh"
-                    photo={rahil}
-                    instagram="hhttps://www.instagram.com/rahil_parikh_/"
-                    linkedin="https://www.linkedin.com/in/rahilparikh007"
-                    github="https://github.com/Rahil-Parikh"
-                    coltype="col-md-6"
-                  ></MemberProfile>
+          <MemberProfile
+            name="Mayank Chowdhary"
+            photo={mayank}
+            instagram="https://www.instagram.com/mayank06302618/"
+            linkedin="https://www.linkedin.com/in/mayankchowdhary/"
+            github="https://github.com/m607stars"
+            coltype="col-md-6"
+          ></MemberProfile>
+          <MemberProfile
+            name="Rahil Parikh"
+            photo={rahil}
+            instagram="hhttps://www.instagram.com/rahil_parikh_/"
+            linkedin="https://www.linkedin.com/in/rahilparikh007"
+            github="https://github.com/Rahil-Parikh"
+            coltype="col-md-6"
+          ></MemberProfile>
         </div>
         <h1 className="text-center" style={{ margin: "3%" }}>
           COMMUNITY MENTORS
@@ -117,26 +118,26 @@ export default function Team() {
         </div>
         <h1 className="text-center">AI PROMOTERS</h1>
         <div className="row" style={{ marginTop: "3%" }}>
-        <MemberProfile
-                    name="Jenson Joseph"
-                    photo={jenson}
-                    linkedin="https://www.linkedin.com/in/jenson-joseph-248479219/"
-                    github="https://github.com/JJsupercoder"
-                    coltype="col-md-6"
-                  ></MemberProfile>
-                  <MemberProfile
-                    name="Shubham Varma"
-                    photo={shubham}
-                    instagram="https://www.instagram.com/shubham17varma/"
-                    linkedin="https://www.linkedin.com/in/shubham-varma-r17092001/"
-                    github="https://github.com/shubham17varma"
-                    coltype="col-md-6"
-                  ></MemberProfile>
+          <MemberProfile
+            name="Jenson Joseph"
+            photo={jenson}
+            linkedin="https://www.linkedin.com/in/jenson-joseph-248479219/"
+            github="https://github.com/JJsupercoder"
+            coltype="col-md-6"
+          ></MemberProfile>
+          <MemberProfile
+            name="Shubham Varma"
+            photo={shubham}
+            instagram="https://www.instagram.com/shubham17varma/"
+            linkedin="https://www.linkedin.com/in/shubham-varma-r17092001/"
+            github="https://github.com/shubham17varma"
+            coltype="col-md-6"
+          ></MemberProfile>
         </div>
         <br />
         <br />
         <h1 className="text-center" style={{ marginBottom: "2%" }}>
-          PAST COUNCILS{" "}
+          PAST COUNCILS
         </h1>
         <div className="accordion " id="accordionExample">
           <div className="bg-dark text-center">

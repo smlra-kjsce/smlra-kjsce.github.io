@@ -1,7 +1,7 @@
 import React from "react";
-import pic from "../static/Images/pic.png";
-// import { Link } from "react-router";
 import { NavLink, Link } from "react-router-dom";
+
+import pic from "../static/Images/pic.png";
 
 export default function Navbar() {
   return (

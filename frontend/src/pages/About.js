@@ -1,8 +1,10 @@
 import React from "react";
+
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+
 import "../static/css/style.css";
 import abt from "../static/Images/abt.svg";
-import Footer from "../components/Footer";
 
 export default function About() {
   return (

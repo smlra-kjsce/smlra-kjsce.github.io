@@ -1,7 +1,9 @@
 import React from "react";
+
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
+import "../static/css/style.css";
 import contact from "../static/Images/contact.svg";
 import kjsce from "../static/Images/kjsce.jpeg";
 

@@ -1,6 +1,8 @@
 import React from "react";
+
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+
 import "../static/css/style.css";
 import pic from "../static/Images/pic.png";
 import Particle from "react-particles-js";

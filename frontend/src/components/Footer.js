@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 import pic from "../static/Images/pic.png";
 
 export default function Footer() {
@@ -36,7 +37,7 @@ export default function Footer() {
               <a href="./contact" style={{ textDecoration: "none" }}>
                 <i className="fa fa-map-marker mx-0" /> KJSCE, Mumbai,
                 Maharashtra, India
-              </a>{" "}
+              </a>
             </p>
             <br />
             <p style={{ color: "black", fontSize: "90%" }}>
@@ -45,7 +46,7 @@ export default function Footer() {
                 style={{ textDecoration: "none" }}
               >
                 <i className="fa fa-envelope" /> <u>smlra-kjsce@somaiya.edu</u>
-              </a>{" "}
+              </a>
             </p>
           </div>
           <div className="col-md-4 mx-auto">
@@ -108,7 +109,7 @@ export default function Footer() {
         </div>
         <div className="footer-copyright text-center py-3">
           <p>
-            © 2021. Developed and Maintained by{" "}
+            © 2021. Developed and Maintained by
             <strong style={{ color: "wheat" }}>SMLRA</strong>
           </p>
         </div>
