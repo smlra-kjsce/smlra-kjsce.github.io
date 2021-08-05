@@ -73,6 +73,15 @@ export default function Navbar() {
           <NavLink
             className="navbar-item nav-link"
             activeClassName="active"
+            to="/resources"
+            exact
+            style={{ paddingRight: "11%" }}
+          >
+            Resources
+          </NavLink>
+          <NavLink
+            className="navbar-item nav-link"
+            activeClassName="active"
             to="/team"
             exact
             style={{ paddingRight: "11%" }}

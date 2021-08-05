@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import pic from "../static/Images/pic.png";
 
 export default function Footer() {
@@ -14,13 +15,14 @@ export default function Footer() {
         <div className="row" style={{ marginLeft: "1px", marginRight: "15px" }}>
           <div className="col-md-4 mx-auto text-center">
             <center>
-              <a className="navbar-brand" href="/index.html">
+              <Link className="navbar-brand" to="/" exact>
                 <img
+                  className="navbar-left"
                   src={pic}
                   alt="smlra"
-                  style={{ width: "20%", height: "20%" }}
+                  style={{ width: "8%", height: "5%" }}
                 />
-              </a>
+              </Link>
             </center>
             <p>
               Somaiya Machine Learning Research Association
