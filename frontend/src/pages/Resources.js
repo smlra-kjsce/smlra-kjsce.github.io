@@ -1,25 +1,11 @@
 import React from "react";
+
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import Initiative from "../components/Initiative";
-import "../static/css/style.css";
-import pic from "../static/Images/pic.png";
+import Resource from "../components/Resource";
 
-import meme from "../static/Images/Events/meme.png";
+import "../static/css/style.css";
 import teach from "../static/Images/teach.svg";
-import hackdcovid from "../static/Images/Events/hack-d-covid.jpeg";
-import pytorch from "../static/Images/Events/pytorch.jpeg";
-import ML101 from "../static/Images/Events/ML101.PNG";
-import pieandai from "../static/Images/Events/pie-and-ai-1.jpeg";
-import NLP101 from "../static/Images/Events/NLP-101.jpg";
-import MLcyber from "../static/Images/Events/ML-Cyber.jpeg";
-import resnet from "../static/Images/Events/resnet.jpg";
-import GANs from "../static/Images/Events/GANs.jpg";
-import mldl101 from "../static/Images/Events/mldl101.jpg";
-import rnn from "../static/Images/Events/rnn.png";
-import nlp from "../static/Images/Events/nlp.png";
-import rishabh from "../static/Images/Events/rishabh.jpg";
-import alexnet from "../static/Images/Events/alexnet.png";
 
 export default function Resources() {
   return (
@@ -35,22 +21,21 @@ export default function Resources() {
           />
         </div>
         <div className="col" style={{ padding: "7%", textAlign: "center" }}>
-          <p style={{ paddingTop: "1%", fontSize: "xx-large" }}>INITIATIVES</p>
+          <p style={{ paddingTop: "1%", fontSize: "xx-large" }}>RESOURCES</p>
           {/* <hr style="background-color: black; width: 50%;"> */}
           <p style={{ fontSize: "large" }} className="ill-text-ini">
             SMLRA has conducted various student-led symposiums, workshops,
             seminars, research paper reading groups and industrial presentation
-            since its inception back in 2018. Here's a glimpse of the events we
-            have conducted so far!
+            since its inception back in 2018. It is a community which puts
+            emphasis on growth and self learning. So here are some resources
+            that have been curated by us.
           </p>
           <p />
         </div>
       </div>
       <div id="Skills" style={{ paddingTop: "5px", marginBottom: "3%" }}>
         <div className=" p-5  container">
-          <h2 className="display-4 pb-5 text-center ini-us">
-            INITIATIVES BY US
-          </h2>
+          <h2 className="display-4 pb-5 text-center ini-us">Resources</h2>
           <ul
             className="nav nav-tabs nav-fill bg-dark rounded"
             id="myTab"
@@ -133,22 +118,10 @@ export default function Resources() {
               role="tabpanel"
               aria-labelledby="tutorials-tab"
             >
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
+              <Resource
+                title="Andrew Ng Course"
+                link="https://www.coursera.org/lecture/neural-networks-deep-learning/welcome-Cuf2f"
+              ></Resource>
             </div>
             <div
               className="tab-pane fade"
@@ -156,22 +129,10 @@ export default function Resources() {
               role="tabpanel"
               aria-labelledby="videos-tab"
             >
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
+              <Resource
+                title="Andrew Ng Course"
+                link="https://www.coursera.org/lecture/neural-networks-deep-learning/welcome-Cuf2f"
+              ></Resource>
             </div>
             <div
               className="tab-pane fade"
@@ -179,22 +140,10 @@ export default function Resources() {
               role="tabpanel"
               aria-labelledby="miscellaneous-tab"
             >
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
-              <div>Resource</div>
+              <Resource
+                title="Andrew Ng Course"
+                link="https://www.coursera.org/lecture/neural-networks-deep-learning/welcome-Cuf2f"
+              ></Resource>
             </div>
           </div>
         </div>
