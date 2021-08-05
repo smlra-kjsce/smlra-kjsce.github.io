@@ -152,9 +152,17 @@ iframe {
   /* filter: blue-wash(90%); */
 }
 
+.card-width {
+  max-width: 50%;
+}
+
 @media only screen and (max-width: 900px) {
   body {
     font-size: 70% !important;
+  }
+
+  .card-width {
+    max-width: 100%;
   }
 }
 

@@ -4,11 +4,12 @@ import "../static/css/style.css";
 export default function Blog(props) {
   return (
     <div
-      className="card shadow c1"
+      className="card shadow c1 card-width"
       style={{
         borderWidth: "0px",
         width: "27rem",
         marginBottom: "5%",
+        // maxWidth: "508px",
       }}
     >
       <a href={props.link}>

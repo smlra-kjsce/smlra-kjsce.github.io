@@ -1,8 +1,9 @@
 import React from "react";
+import "../static/css/style.css";
 
 export default function Initiative(props) {
   return (
-    <div className="card" style={{ maxWidth: "508px" }}>
+    <div className="card card-width">
       <img className="card-img-top" src={props.photo} alt="Card image cap" />
       <div className="card-body">
         <h5 className="card-title">{props.title}</h5>
