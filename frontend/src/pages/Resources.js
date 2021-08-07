@@ -24,11 +24,10 @@ export default function Resources() {
           <p style={{ paddingTop: "1%", fontSize: "xx-large" }}>RESOURCES</p>
           {/* <hr style="background-color: black; width: 50%;"> */}
           <p style={{ fontSize: "large" }} className="ill-text-ini">
-            SMLRA has conducted various student-led symposiums, workshops,
-            seminars, research paper reading groups and industrial presentation
-            since its inception back in 2018. It is a community which puts
-            emphasis on growth and self learning. So here are some resources
-            that have been curated by us.
+            The quotidian question that we always encounter is: Where do I start in ML?
+            Therefore, we have collected some resources that are periodically updated from time-to-time
+            to cover a variety of aspects of ML including blogs and people to follow, courses to take and 
+            papers to read!
           </p>
           <p />
         </div>
@@ -52,7 +51,7 @@ export default function Resources() {
                 aria-controls="tutorials"
                 aria-selected="true"
               >
-                Tutorials/Courses
+                Tutorials/Courses/Playlist
               </a>
             </li>
             <li className="nav-item">
@@ -65,7 +64,7 @@ export default function Resources() {
                 aria-controls="videos"
                 aria-selected="false"
               >
-                Videos/Talks
+                Blogs/Websites/People
               </a>
             </li>
             <li className="nav-item">
@@ -78,7 +77,7 @@ export default function Resources() {
                 aria-controls="miscellaneous"
                 aria-selected="false"
               >
-                MIscellaneous
+                Papers to Read
               </a>
             </li>
           </ul>
@@ -91,8 +90,8 @@ export default function Resources() {
               aria-labelledby="tutorials-tab"
             >
               <Resource
-                title="Andrew Ng Course"
-                link="https://www.coursera.org/lecture/neural-networks-deep-learning/welcome-Cuf2f"
+                title="Andrew Ng Course on ML by Coursera"
+                link="https://www.coursera.org/learn/machine-learning"
               ></Resource>
             </div>
             <div
@@ -102,8 +101,8 @@ export default function Resources() {
               aria-labelledby="videos-tab"
             >
               <Resource
-                title="Andrew Ng Course"
-                link="https://www.coursera.org/lecture/neural-networks-deep-learning/welcome-Cuf2f"
+                title="Andrew Ng Course on ML by Coursera"
+                link="https://www.coursera.org/learn/machine-learning"
               ></Resource>
             </div>
             <div
@@ -113,8 +112,8 @@ export default function Resources() {
               aria-labelledby="miscellaneous-tab"
             >
               <Resource
-                title="Andrew Ng Course"
-                link="https://www.coursera.org/lecture/neural-networks-deep-learning/welcome-Cuf2f"
+                title="Andrew Ng Course on ML by Coursera"
+                link="https://www.coursera.org/learn/machine-learning"
               ></Resource>
             </div>
           </div>

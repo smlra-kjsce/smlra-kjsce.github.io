@@ -21,7 +21,7 @@ export default function Footer() {
                   className="navbar-left"
                   src={pic}
                   alt="smlra"
-                  style={{ width: "8%", height: "5%" }}
+                  style={{ width: "20%", height: "20%" }}
                 />
               </Link>
             </center>
@@ -110,7 +110,7 @@ export default function Footer() {
         <div className="footer-copyright text-center py-3">
           <p>
             © 2021. Developed and Maintained by
-            <strong style={{ color: "wheat" }}>SMLRA</strong>
+            <strong style={{ color: "wheat" }}> SMLRA</strong>
           </p>
         </div>
       </footer>

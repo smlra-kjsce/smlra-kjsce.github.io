@@ -29,7 +29,7 @@ export default function Contact() {
           <p style={{ fontSize: "large" }} className="ill-text-cnt">
             Looking forward to collaborate with us or volunteer with our
             community for an event? We are just a click away on any of our
-            social medias channels, or just shoot us a mail and we would be
+            social media channels, or just shoot us a mail and we would be
             happy to respond to your queries or collaborate on any new
             opportunities.
           </p>

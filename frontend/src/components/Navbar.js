@@ -39,7 +39,7 @@ export default function Navbar() {
             activeClassName="active"
             to="/"
             exact
-            style={{ paddingRight: "11%" }}
+            style={{ paddingRight: "8%" }}
           >
             Home
           </NavLink>
@@ -48,7 +48,7 @@ export default function Navbar() {
             activeClassName="active"
             to="/about"
             exact
-            style={{ paddingRight: "11%" }}
+            style={{ paddingRight: "8%" }}
           >
             About
           </NavLink>
@@ -57,7 +57,7 @@ export default function Navbar() {
             activeClassName="active"
             to="/blogs"
             exact
-            style={{ paddingRight: "11%" }}
+            style={{ paddingRight: "8%" }}
           >
             Blogs
           </NavLink>
@@ -66,7 +66,7 @@ export default function Navbar() {
             activeClassName="active"
             to="/initiatives"
             exact
-            style={{ paddingRight: "11%" }}
+            style={{ paddingRight: "8%" }}
           >
             Initiatives
           </NavLink>
@@ -75,7 +75,7 @@ export default function Navbar() {
             activeClassName="active"
             to="/resources"
             exact
-            style={{ paddingRight: "11%" }}
+            style={{ paddingRight: "8%" }}
           >
             Resources
           </NavLink>
@@ -84,7 +84,7 @@ export default function Navbar() {
             activeClassName="active"
             to="/team"
             exact
-            style={{ paddingRight: "11%" }}
+            style={{ paddingRight: "8%" }}
           >
             Team
           </NavLink>
@@ -93,7 +93,7 @@ export default function Navbar() {
             activeClassName="active"
             to="/contact"
             exact
-            style={{ paddingRight: "11%" }}
+            style={{ paddingRight: "8%" }}
           >
             Contact
           </NavLink>
