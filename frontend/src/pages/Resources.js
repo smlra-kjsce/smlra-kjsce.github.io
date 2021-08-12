@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 import Resource from "../components/Resource";
 
 import "../static/css/style.css";
-import teach from "../static/Images/teach.svg";
+import teach from "../static/Images/resources.svg";
 
 export default function Resources() {
   return (
@@ -34,7 +34,7 @@ export default function Resources() {
       </div>
       <div id="Skills" style={{ paddingTop: "5px", marginBottom: "3%" }}>
         <div className=" p-5  container">
-          <h2 className="display-4 pb-5 text-center ini-us">Resources</h2>
+          <h2 className="display-4 pb-5 text-center ini-us">LIST OF RESOURCES</h2>
           <ul
             className="nav nav-tabs nav-fill bg-dark rounded"
             id="myTab"
@@ -51,37 +51,51 @@ export default function Resources() {
                 aria-controls="tutorials"
                 aria-selected="true"
               >
-                Tutorials/Courses/Playlist
+                Tutorials | Courses | Playlist
               </a>
             </li>
             <li className="nav-item">
               <a
                 className="nav-link"
-                id="videos-tab"
+                id="people-tab"
                 data-toggle="tab"
-                href="#videos"
+                href="#people"
                 role="tab"
-                aria-controls="videos"
+                aria-controls="people"
                 aria-selected="false"
               >
-                Blogs/Websites/People
+                Blogs | People To Follow
               </a>
             </li>
             <li className="nav-item">
               <a
                 className="nav-link"
-                id="miscellaneous-tab"
+                id="libraries-tab"
                 data-toggle="tab"
-                href="#miscellaneous"
+                href="#libraries"
                 role="tab"
-                aria-controls="miscellaneous"
+                aria-controls="libraries"
                 aria-selected="false"
               >
-                Papers to Read
+                Cool Libraries | Websites
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                className="nav-link"
+                id="papers-tab"
+                data-toggle="tab"
+                href="#papers"
+                role="tab"
+                aria-controls="papers"
+                aria-selected="false"
+              >
+                Research Papers to Read
               </a>
             </li>
           </ul>
 
+          {/* Tutorials | Courses | Playlist */}
           <div className="tab-content" id="myTabContent">
             <div
               className="tab-pane fade show active"
@@ -90,32 +104,119 @@ export default function Resources() {
               aria-labelledby="tutorials-tab"
             >
               <Resource
-                title="Andrew Ng Course on ML by Coursera"
+                title="Machine Learning on Coursera"
                 link="https://www.coursera.org/learn/machine-learning"
+                detail=" by Andrew Ng, Stanford University"
+              ></Resource>
+
+              <Resource
+                title="Deep Learning Specialization"
+                link="https://www.coursera.org/specializations/deep-learning"
+                detail=" by deeplearning.ai on Coursera"
+              ></Resource>
+
+              <Resource
+                title="Natural Language Processing Specialization"
+                link="https://www.coursera.org/specializations/natural-language-processing"
+                detail=" by deeplearning.ai on Coursera"
+              ></Resource>
+
+              <Resource
+                title="Generative Adversarial Networks (GANs) Specialization"
+                link="https://www.coursera.org/specializations/generative-adversarial-networks-gans"
+                detail=" by deeplearning.ai on Coursera"
+              ></Resource>
+
+              <Resource
+                title="Machine Learning Engineering for Production (MLOps) Specialization"
+                link="https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops"
+                detail=" by deeplearning.ai on Coursera"
+              ></Resource>
+              <Resource
+                title="AI for Medicine Specialization"
+                link="https://www.coursera.org/specializations/ai-for-medicine"
+                detail=" by deeplearning.ai on Coursera"
               ></Resource>
             </div>
+
+            {/* Blogs | People to Follow */}
             <div
               className="tab-pane fade"
-              id="videos"
+              id="people"
               role="tabpanel"
-              aria-labelledby="videos-tab"
+              aria-labelledby="people-tab"
             >
               <Resource
-                title="Andrew Ng Course on ML by Coursera"
-                link="https://www.coursera.org/learn/machine-learning"
+                title="Jeremy Jordan's blog"
+                link="https://jeremyjordan.me"
+                detail=" - ML Engineer at Duo Security"
+              ></Resource>
+
+              <Resource
+                title="Lilian Weng's Lil'Log"
+                link="https://lilianweng.github.io/lil-log/"
+                detail=" - Applied AI Researcher at OpenAI"
+              ></Resource>
+
+              <Resource
+                title="elvis on Twitter"
+                link="https://twitter.com/omarsar0"
+                detail=" - shares new resources / papers / tips on Twitter daily"
+              ></Resource>
+
+              <Resource
+                title="Santiago on Twitter"
+                link="https://twitter.com/svpino"
+                detail=" - shares ML threads / advice / interesting problems  on Twitter daily"
+              ></Resource>
+
+              <Resource
+                title="Illustrated Guide to LSTMs and GRUs: A step by step explanation"
+                link="https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21"
+                detail=" by Michael Phi on Towards Data Science"
               ></Resource>
             </div>
+
+            {/* Cool Libraries | Websites */}
             <div
               className="tab-pane fade"
-              id="miscellaneous"
+              id="libraries"
               role="tabpanel"
-              aria-labelledby="miscellaneous-tab"
+              aria-labelledby="libraries-tab"
             >
               <Resource
-                title="Andrew Ng Course on ML by Coursera"
-                link="https://www.coursera.org/learn/machine-learning"
+                title="Weights and Biases"
+                link="https://wandb.ai"
+                detail=" - allows us to monitor our training in real-time, in Pytorch, TF, Keras, etc."
+              ></Resource>
+              
+              <Resource
+              title="Hugging Face"
+              link="https://huggingface.co"
+              detail=" - build, train and deploy state-of-the-art models powered by the reference open-source in NLP."
+            ></Resource>
+            
+            <Resource
+            title="Made With ML"
+            link="https://madewithml.com"
+            detail=" - learn basics of ML and MLOps through intuitive explanations and clean code to deliver quality-grade product."
+          ></Resource>
+            </div>
+
+            {/* Research Papers to Read */}
+            <div
+              className="tab-pane fade"
+              id="papers"
+              role="tabpanel"
+              aria-labelledby="papers-tab"
+            >
+              <Resource
+                title="MLP-Mixer: An all-MLP Architecture for Vision"
+                link="https://arxiv.org/pdf/2105.01601.pdf"
+                detail=" by Tolstikhin et al. of Google Brain, 2021"
               ></Resource>
             </div>
+
           </div>
         </div>
       </div>

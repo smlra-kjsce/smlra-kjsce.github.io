@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import MemberProfile from "../components/MemberProfile";
 
-import team3 from "../static/Images/team3.svg";
+import team from "../static/Images/team.svg";
 
 import swatimaam from "../static/Images/profile_pics/swati maam.jpg";
 import vaibhavsir from "../static/Images/profile_pics/vaibhav sir.jpg";
@@ -33,7 +33,7 @@ export default function Team() {
       <div className="row" style={{ margin: "10%", marginBottom: 0 }}>
         <div className="col">
           <img
-            src={team3}
+            src={team}
             alt="blog"
             style={{ width: "100%", height: "80%" }}
           />
@@ -167,7 +167,7 @@ export default function Team() {
               data-parent="#accordionExample"
             >
               <div className="card-body bg-light">
-                <h1 className="text-center">LEAD MENTORS</h1>
+                <h1 className="text-center">LEAD MENTOR</h1>
                 <div className="row" style={{ marginTop: "3%" }}>
                   <MemberProfile
                     name="Arghyadeep Das"

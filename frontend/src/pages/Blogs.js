@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 import Blog from "../components/Blog";
 
 import "../static/css/style.css";
-import blog from "../static/Images/blog.svg";
+import blog from "../static/Images/blogging.svg";
 import blog1 from "../static/Images/blog1_img.PNG";
 import blog2 from "../static/Images/blog2_img.PNG";
 import blog3 from "../static/Images/blog3_img.PNG";
@@ -36,9 +36,9 @@ export default function Blogs() {
         </div>
       </div>
       <div className="blg" style={{ marginTop: "10%" }}>
-        <h2 className="text-center" style={{ marginBottom: "4%" }}>
-          BLOGS BY SMLRA
-        </h2>
+      <h2 className="display-4 pb-5 text-center ini-us">
+            BLOGS BY SMLRA
+          </h2>
         <div
           className="card-deck "
           style={{ paddingLeft: "10%", paddingRight: "10%" }}

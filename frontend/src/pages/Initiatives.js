@@ -5,8 +5,8 @@ import Footer from "../components/Footer";
 import Initiative from "../components/Initiative";
 
 import "../static/css/style.css";
-import meme from "../static/Images/Events/meme.png";
 import teach from "../static/Images/teach.svg";
+import meme from "../static/Images/Events/meme.png";
 import hackdcovid from "../static/Images/Events/hack-d-covid.jpeg";
 import pytorch from "../static/Images/Events/pytorch.jpeg";
 import ML101 from "../static/Images/Events/ML101.PNG";

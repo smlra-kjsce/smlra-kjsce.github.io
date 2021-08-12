@@ -23,7 +23,7 @@ export default function MemberProfile(props) {
       {props.github && (
         <a href={props.github} target="_blank">
           <i
-            className="fab fa-github-square fa-2x"
+            className="fab fa-github fa-2x"
             style={{ color: "#330066" }}
           />
           &nbsp; &nbsp;

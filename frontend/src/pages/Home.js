@@ -20,7 +20,7 @@ export default function Home() {
           <h1
             style={{ color: "wheat", fontFamily: '"Montserrat", sans-serif' }}
           >
-            SMLRA
+            <b>SMLRA</b>
           </h1>
           <p
             style={{
@@ -29,7 +29,7 @@ export default function Home() {
               fontFamily: '"Montserrat", sans-serif',
             }}
           >
-            Somaiya Machine Learning Research Association
+            <b>Somaiya Machine Learning Research Association</b>
           </p>
           <br />
           <p
@@ -39,7 +39,7 @@ export default function Home() {
               fontFamily: '"Montserrat", sans-serif',
             }}
           >
-            "Where dedication meets research...."
+            <i>"Where dedication meets research...."</i>
           </p>
         </div>
         {/* </div> */}

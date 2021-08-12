@@ -24,7 +24,7 @@ export default function About() {
             className="col"
             style={{ padding: "7%", textAlign: "center", paddingTop: "4%" }}
           >
-            <p style={{ fontSize: "xx-large" }}>About Us</p>
+            <p style={{ fontSize: "xx-large" }}>ABOUT US</p>
             {/* <hr style="background-color: black; width: 50%;"> */}
             <p style={{ fontSize: "large" }} className="ill-text-abt">
               Dedicated student community of KJSCE with an aim to accelerate
@@ -46,7 +46,7 @@ export default function About() {
           }}
         >
           <div className="card-body">
-            <h4 className="card-title text-center">AIM</h4>
+            <h3 className="card-title text-center">AIM</h3>
             <p className="card-text" align="justify">
               Somaiya Machine Learning Research Association (SMLRA) is a
               community aimed at fostering Machine Learning and Deep Learning
@@ -83,7 +83,7 @@ export default function About() {
           }}
         >
           <div className="card-body">
-            <h4 className="card-title text-center">Vision and Mission</h4>
+            <h3 className="card-title text-center">VISION AND MISSION</h3>
             <p className="card-text" align="justify">
               In the past years, many top universities around the world have
               become research hubs for Artificial Intelligence, contributing and
