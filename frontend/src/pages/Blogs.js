@@ -29,7 +29,7 @@ export default function Blogs() {
           <p style={{ paddingTop: "1%", fontSize: "xx-large" }}>BLOGS</p>
           {/* <hr style="background-color: black; width: 50%;"> */}
           <p style={{ fontSize: "large" }} className="ill-text-b">
-            “Don’t focus on having a great blog. Focus on producing a blog
+            “Don’t focus on having a great blog. Instead, focus on producing a blog
             that’s great for your readers.”
           </p>
           <p />
