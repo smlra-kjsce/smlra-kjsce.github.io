@@ -15,32 +15,42 @@ export default function Home() {
       <div id="particles-js">
         {/* <div class="container" style="margin-top: 9%;"> */}
         <Particle params={particles} className="particles_container" />
-        <div className="btext" style={{ paddingLeft: "5%" }}>
+        <div
+          className="btext"
+          style={{ paddingLeft: "5%", whiteSpace: "wrap" }}
+        >
           <img src={pic} alt="smlra" style={{ width: "15%", height: "15%" }} />
-          <h1
-            style={{ color: "wheat", fontFamily: '"Montserrat", sans-serif' }}
-          >
-            <b>SMLRA</b>
-          </h1>
-          <p
-            style={{
-              color: "wheat",
-              fontSize: "125%",
-              fontFamily: '"Montserrat", sans-serif',
-            }}
-          >
-            <b>Somaiya Machine Learning Research Association</b>
-          </p>
+          <div>
+            <h1
+              style={{ color: "wheat", fontFamily: '"Montserrat", sans-serif' }}
+            >
+              <b>SMLRA</b>
+            </h1>
+          </div>
+          <div>
+            <p
+              style={{
+                color: "wheat",
+                fontSize: "125%",
+                fontFamily: '"Montserrat", sans-serif',
+                lineHeight: "1.5",
+              }}
+            >
+              <b>Somaiya Machine Learning Research Association</b>
+            </p>
+          </div>
           <br />
-          <p
-            style={{
-              color: "wheat",
-              fontSize: "110%",
-              fontFamily: '"Montserrat", sans-serif',
-            }}
-          >
-            <i>"Where dedication meets research...."</i>
-          </p>
+          <div>
+            <p
+              style={{
+                color: "wheat",
+                fontSize: "110%",
+                fontFamily: '"Montserrat", sans-serif',
+              }}
+            >
+              <i>"Where dedication meets research...."</i>
+            </p>
+          </div>
         </div>
         {/* </div> */}
       </div>
