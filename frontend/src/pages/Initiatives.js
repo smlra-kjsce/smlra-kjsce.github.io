@@ -3,6 +3,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Initiative from "../components/Initiative";
+import Header from "../components/Header";
 
 import "../static/css/style.css";
 import teach from "../static/Images/teach.svg";
@@ -25,27 +26,15 @@ export default function Initiatives() {
   return (
     <div className="fonts">
       <Navbar />
-      <div className="row" style={{ margin: "10%", marginBottom: 0 }}>
-        <div className="col">
-          <img
-            src={teach}
-            alt="blog"
-            style={{ width: "100%" }}
-            className="ini-img"
-          />
-        </div>
-        <div className="col" style={{ padding: "7%", textAlign: "center" }}>
-          <p style={{ paddingTop: "1%", fontSize: "xx-large" }}>INITIATIVES</p>
-          {/* <hr style="background-color: black; width: 50%;"> */}
-          <p style={{ fontSize: "large" }} className="ill-text-ini">
-            SMLRA has conducted various student-led symposiums, workshops,
-            seminars, research paper reading groups and industrial presentation
-            since its inception back in 2018. Here's a glimpse of the events we
-            have conducted so far!
-          </p>
-          <p />
-        </div>
-      </div>
+      <Header
+        title="INITIATIVES"
+        body="SMLRA has conducted various student-led symposiums, workshops,
+        seminars, research paper reading groups and industrial presentation
+        since its inception back in 2018. Here's a glimpse of the events we
+        have conducted so far!"
+        photo={teach}
+      ></Header>
+
       <div id="Skills" style={{ paddingTop: "5px", marginBottom: "3%" }}>
         <div className=" p-5  container">
           <h2 className="display-4 pb-5 text-center ini-us">

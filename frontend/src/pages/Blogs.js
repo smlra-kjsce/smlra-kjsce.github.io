@@ -3,6 +3,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Blog from "../components/Blog";
+import Header from "../components/Header";
 
 import "../static/css/style.css";
 import blog from "../static/Images/blogging.svg";
@@ -17,24 +18,13 @@ export default function Blogs() {
   return (
     <div className="fonts">
       <Navbar />
-      <div className="row" style={{ margin: "10%", marginBottom: 0 }}>
-        <div className="col">
-          <img
-            src={blog}
-            alt="blog"
-            style={{ width: "100%", height: "100%" }}
-          />
-        </div>
-        <div className="col" style={{ padding: "7%", textAlign: "center" }}>
-          <p style={{ paddingTop: "1%", fontSize: "xx-large" }}>BLOGS</p>
-          {/* <hr style="background-color: black; width: 50%;"> */}
-          <p style={{ fontSize: "large" }} className="ill-text-b">
-            “Don’t focus on having a great blog. Instead, focus on producing a
-            blog that’s great for your readers.”
-          </p>
-          <p />
-        </div>
-      </div>
+      <Header
+        title="BLOGS"
+        body="“Don’t focus on having a great blog. Instead, focus on producing a
+            blog that’s great for your readers.”"
+        photo={blog}
+      ></Header>
+
       <div className="blg" style={{ marginTop: "10%" }}>
         <h2 className="display-4 pb-5 text-center ini-us">BLOGS BY SMLRA</h2>
         <div className="row card-row">
