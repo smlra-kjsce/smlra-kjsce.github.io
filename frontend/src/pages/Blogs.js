@@ -3,6 +3,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Blog from "../components/Blog";
+import Header from "../components/Header";
 
 import "../static/css/style.css";
 import blog from "../static/Images/blogging.svg";
@@ -17,32 +18,16 @@ export default function Blogs() {
   return (
     <div className="fonts">
       <Navbar />
-      <div className="row" style={{ margin: "10%", marginBottom: 0 }}>
-        <div className="col">
-          <img
-            src={blog}
-            alt="blog"
-            style={{ width: "100%", height: "100%" }}
-          />
-        </div>
-        <div className="col" style={{ padding: "7%", textAlign: "center" }}>
-          <p style={{ paddingTop: "1%", fontSize: "xx-large" }}>BLOGS</p>
-          {/* <hr style="background-color: black; width: 50%;"> */}
-          <p style={{ fontSize: "large" }} className="ill-text-b">
-            “Don’t focus on having a great blog. Instead, focus on producing a blog
-            that’s great for your readers.”
-          </p>
-          <p />
-        </div>
-      </div>
+      <Header
+        title="BLOGS"
+        body="“Don’t focus on having a great blog. Instead, focus on producing a
+            blog that’s great for your readers.”"
+        photo={blog}
+      ></Header>
+
       <div className="blg" style={{ marginTop: "10%" }}>
-      <h2 className="display-4 pb-5 text-center ini-us">
-            BLOGS BY SMLRA
-          </h2>
-        <div
-          className="card-deck "
-          style={{ paddingLeft: "10%", paddingRight: "10%" }}
-        >
+        <h2 className="display-4 pb-5 text-center ini-us">BLOGS BY SMLRA</h2>
+        <div className="row card-row">
           <Blog
             title="The Secrets of SVMs"
             body="This article is continuation of 2nd part in “ML-DL-101” series
@@ -73,11 +58,6 @@ export default function Blogs() {
             date="25th March 2020"
             photo={blog3}
           ></Blog>
-        </div>
-        <div
-          className="card-deck "
-          style={{ paddingLeft: "10%", paddingRight: "10%" }}
-        >
           <Blog
             title="Supporting SVMs (Support Vector Machines)"
             body="Welcome back to the 2nd part of “ML-DL-101” series. In this
@@ -104,11 +84,6 @@ export default function Blogs() {
             date="10th Feb 2020"
             photo={blog1}
           ></Blog>
-        </div>
-        <div
-          className="card-deck "
-          style={{ paddingLeft: "10%", paddingRight: "10%" }}
-        >
           <Blog
             title="What’s the “Res” in “ResNet”? [Part II]"
             body="Welcome back to the 2nd and last part of the blog - What’s the

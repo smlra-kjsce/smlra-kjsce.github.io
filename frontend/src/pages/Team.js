@@ -3,6 +3,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import MemberProfile from "../components/MemberProfile";
+import Header from "../components/Header";
 
 import team from "../static/Images/team.svg";
 
@@ -30,26 +31,15 @@ export default function Team() {
   return (
     <div className="fonts">
       <Navbar />
-      <div className="row" style={{ margin: "10%", marginBottom: 0 }}>
-        <div className="col">
-          <img
-            src={team}
-            alt="blog"
-            style={{ width: "100%", height: "80%" }}
-          />
-        </div>
-        <div className="col" style={{ padding: "7%", textAlign: "center" }}>
-          <p style={{ paddingTop: "1%", fontSize: "xx-large" }}>TEAM</p>
-          {/* <hr style="background-color: black; width: 50%;"> */}
-          <p style={{ fontSize: "large" }} className="ill-text-team">
-            "Teamwork is the ability to work together toward a common vision.
-            The ability to direct individual accomplishments toward
-            organizational objectives. It is the fuel that allows common people
-            to attain uncommon results." – Andrew Carnegie
-          </p>
-          <p />
-        </div>
-      </div>
+      <Header
+        title="TEAM"
+        body="“Teamwork is the ability to work together toward a common vision.
+        The ability to direct individual accomplishments toward
+        organizational objectives. It is the fuel that allows common people
+        to attain uncommon results.” – Andrew Carnegie"
+        photo={team}
+      ></Header>
+
       <section className="team" style={{ margin: "1%", marginBottom: "7%" }}>
         <h1 className="text-center">FACULTY CO-ORDINATORS</h1>
         <div className="row" style={{ marginTop: "3%" }}>
