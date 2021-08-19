@@ -3,38 +3,29 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Resource from "../components/Resource";
+import Header from "../components/Header";
 
 import "../static/css/style.css";
-import teach from "../static/Images/resources.svg";
+import resources from "../static/Images/resources.svg";
 
 export default function Resources() {
   return (
     <div className="fonts">
       <Navbar />
-      <div className="row" style={{ margin: "10%", marginBottom: 0 }}>
-        <div className="col">
-          <img
-            src={teach}
-            alt="blog"
-            style={{ width: "100%" }}
-            className="ini-img"
-          />
-        </div>
-        <div className="col" style={{ padding: "7%", textAlign: "center" }}>
-          <p style={{ paddingTop: "1%", fontSize: "xx-large" }}>RESOURCES</p>
-          {/* <hr style="background-color: black; width: 50%;"> */}
-          <p style={{ fontSize: "large" }} className="ill-text-ini">
-            The quotidian question that we always encounter is: Where do I start in ML?
-            Therefore, we have collected some resources that are periodically updated from time-to-time
-            to cover a variety of aspects of ML including blogs and people to follow, courses to take and 
-            papers to read!
-          </p>
-          <p />
-        </div>
-      </div>
+      <Header
+        title="RESOURCES"
+        body="The quotidian question that we always encounter is: Where do I start in ML?
+        Therefore, we have collected some resources that are periodically updated from time-to-time
+        to cover a variety of aspects of ML including blogs and people to follow, courses to take and 
+        papers to read!"
+        photo={resources}
+      ></Header>
+
       <div id="Skills" style={{ paddingTop: "5px", marginBottom: "3%" }}>
         <div className=" p-5  container">
-          <h2 className="display-4 pb-5 text-center ini-us">LIST OF RESOURCES</h2>
+          <h2 className="display-4 pb-5 text-center ini-us">
+            LIST OF RESOURCES
+          </h2>
           <ul
             className="nav nav-tabs nav-fill bg-dark rounded"
             id="myTab"
@@ -274,7 +265,13 @@ export default function Resources() {
                 link="https://wandb.ai"
                 detail=" - allows us to monitor our training in real-time, in Pytorch, TF, Keras, etc."
               ></Resource>
-              
+
+              <Resource
+                title="Hugging Face"
+                link="https://huggingface.co"
+                detail=" - build, train and deploy state-of-the-art models powered by the reference open-source in NLP."
+              ></Resource>
+
               <Resource
               title="Hugging Face"
               link="https://huggingface.co"
@@ -338,7 +335,6 @@ export default function Resources() {
                 detail=" by Tolstikhin et al. of Google Brain, 2021"
               ></Resource>
             </div>
-
           </div>
         </div>
       </div>

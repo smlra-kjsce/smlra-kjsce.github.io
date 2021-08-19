@@ -2,6 +2,7 @@ import React from "react";
 
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 import "../static/css/style.css";
 import abt from "../static/Images/abt.svg";
@@ -11,29 +12,15 @@ export default function About() {
     <div className="fonts">
       <Navbar />
       <section className="about">
-        <div className="row" style={{ margin: "13%", marginBottom: 0 }}>
-          <div className="col">
-            <img
-              src={abt}
-              alt="blog"
-              style={{ width: "100%", height: "70%" }}
-              className="abt-img"
-            />
-          </div>
-          <div
-            className="col"
-            style={{ padding: "7%", textAlign: "center", paddingTop: "4%" }}
-          >
-            <p style={{ fontSize: "xx-large" }}>ABOUT US</p>
-            {/* <hr style="background-color: black; width: 50%;"> */}
-            <p style={{ fontSize: "large" }} className="ill-text-abt">
-              Dedicated student community of KJSCE with an aim to accelerate
-              collaboration among students in AI research and development. Read
-              on to find what motivates our members to be a part of our society
-              and the need for such a community in our university!
-            </p>
-          </div>
-        </div>
+        <Header
+          title="ABOUT US"
+          body="Dedicated student community of KJSCE with an aim to accelerate
+        collaboration among students in AI research and development. Read
+        on to find what motivates our members to be a part of our society
+        and the need for such a community in our university!"
+          photo={abt}
+        ></Header>
+
         <div
           className="card shadow"
           style={{

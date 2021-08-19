@@ -3,6 +3,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Initiative from "../components/Initiative";
+import Header from "../components/Header";
 
 import "../static/css/style.css";
 import teach from "../static/Images/teach.svg";
@@ -25,27 +26,15 @@ export default function Initiatives() {
   return (
     <div className="fonts">
       <Navbar />
-      <div className="row" style={{ margin: "10%", marginBottom: 0 }}>
-        <div className="col">
-          <img
-            src={teach}
-            alt="blog"
-            style={{ width: "100%" }}
-            className="ini-img"
-          />
-        </div>
-        <div className="col" style={{ padding: "7%", textAlign: "center" }}>
-          <p style={{ paddingTop: "1%", fontSize: "xx-large" }}>INITIATIVES</p>
-          {/* <hr style="background-color: black; width: 50%;"> */}
-          <p style={{ fontSize: "large" }} className="ill-text-ini">
-            SMLRA has conducted various student-led symposiums, workshops,
-            seminars, research paper reading groups and industrial presentation
-            since its inception back in 2018. Here's a glimpse of the events we
-            have conducted so far!
-          </p>
-          <p />
-        </div>
-      </div>
+      <Header
+        title="INITIATIVES"
+        body="SMLRA has conducted various student-led symposiums, workshops,
+        seminars, research paper reading groups and industrial presentation
+        since its inception back in 2018. Here's a glimpse of the events we
+        have conducted so far!"
+        photo={teach}
+      ></Header>
+
       <div id="Skills" style={{ paddingTop: "5px", marginBottom: "3%" }}>
         <div className=" p-5  container">
           <h2 className="display-4 pb-5 text-center ini-us">
@@ -133,7 +122,7 @@ export default function Initiatives() {
               role="tabpanel"
               aria-labelledby="skills-2020-tab"
             >
-              <div className="card-deck">
+              <div className="row">
                 <Initiative
                   title="PyTorch-101: Introduction to PyTorch"
                   body="SMLRA conducted a hands-on workshop on PyTorch, a
@@ -164,9 +153,6 @@ export default function Initiatives() {
                   date="30th January, 2021"
                   youtube="https://youtu.be/cWVyb2JBWgk"
                 ></Initiative>
-              </div>
-              <br />
-              <div className="card-deck">
                 <Initiative
                   title="Hack-D-Covid"
                   body="Hack-D-Covid was a two-track competition hosted on Kaggle:
@@ -199,7 +185,7 @@ export default function Initiatives() {
               role="tabpanel"
               aria-labelledby="skills-2019-tab"
             >
-              <div className="card-deck">
+              <div className="row">
                 <Initiative
                   title="Pie &amp; AI - Navi Mumbai: The Past &amp; Future of AI"
                   body="SMLRA's first “Pie &amp; AI” session in collaboration with
@@ -216,9 +202,6 @@ export default function Initiatives() {
                   date="7th March, 2020"
                   github="https://github.com/smlra-kjsce/DL-in-NLP-101"
                 ></Initiative>
-              </div>
-              <br />
-              <div className="card-deck">
                 <Initiative
                   title="Industry Session on “Machine Learning in Cybersecurity”"
                   body="This industrial session was held by SMLRA for Network
@@ -240,9 +223,6 @@ export default function Initiatives() {
                   date="3rd-4th October, 2019"
                   github="https://github.com/smlra-kjsce/Introduction-to-VAEs-and-GANs"
                 ></Initiative>
-              </div>
-              <br />
-              <div className="card-deck">
                 <Initiative
                   title="ML-DL-101"
                   body="Introduction to Machine Learning and Deep Learning through
@@ -270,7 +250,7 @@ export default function Initiatives() {
               role="tabpanel"
               aria-labelledby="skills-2018-tab"
             >
-              <div className="card-deck">
+              <div className="row">
                 <Initiative
                   title="Implementation of Recurrent Neural Networks"
                   body="The speaker for this session was Mr. Kevin Patel
@@ -299,9 +279,6 @@ export default function Initiatives() {
                   photo={nlp}
                   date="26th February, 2019"
                 ></Initiative>
-              </div>
-              <br />
-              <div className="card-deck">
                 <Initiative
                   title="Research paper demonstration on “3D Human Pose Estimation
                   Using Videos”"

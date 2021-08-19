@@ -2,6 +2,7 @@ import React from "react";
 
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 import "../static/css/style.css";
 import contact from "../static/Images/contact.svg";
@@ -11,30 +12,16 @@ export default function Contact() {
   return (
     <div className="fonts">
       <Navbar />
-      <div className="row" style={{ margin: "10%", marginBottom: 0 }}>
-        <div className="col">
-          <img
-            src={contact}
-            alt="blog"
-            style={{ width: "100%", height: "70%" }}
-            className="cnt-img"
-          />
-        </div>
-        <div
-          className="col"
-          style={{ padding: "7%", textAlign: "center", paddingTop: "4%" }}
-        >
-          <p style={{ fontSize: "xx-large" }}>CONTACT US</p>
-          {/* <hr style="background-color: black; width: 50%;"> */}
-          <p style={{ fontSize: "large" }} className="ill-text-cnt">
-            Looking forward to collaborate with us or volunteer with our
-            community for an event? We are just a click away on any of our
-            social media channels, or just shoot us a mail and we would be
-            happy to respond to your queries or collaborate on any new
-            opportunities.
-          </p>
-        </div>
-      </div>
+      <Header
+        title="CONTACT US"
+        body="Looking forward to collaborate with us or volunteer with our
+        community for an event? We are just a click away on any of our
+        social media channels, or just shoot us a mail and we would be
+        happy to respond to your queries or collaborate on any new
+        opportunities."
+        photo={contact}
+      ></Header>
+
       <section
         className="map"
         style={{ textAlign: "center", marginBottom: "5%" }}
