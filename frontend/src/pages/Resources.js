@@ -255,6 +255,12 @@ export default function Resources() {
               detail=" - World's First 4x Kaggle Grandmaster, with YouTube channel to learn about ML concepts, Kaggle, etc."
             ></Resource>
 
+            <Resource
+              title="Mark Saroufim"
+              link="https://www.youtube.com/user/marksaroufim/videos"
+              detail=" - an underrated YouTube channel with amazing content, coding many concepts from scratch."
+            ></Resource>
+
               <Resource
                 title="Illustrated Guide to LSTMs and GRUs: A step by step explanation"
                 link="https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21"
