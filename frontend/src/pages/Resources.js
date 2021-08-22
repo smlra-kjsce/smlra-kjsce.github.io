@@ -280,6 +280,12 @@ export default function Resources() {
                 link="https://wandb.ai"
                 detail=" - allows us to monitor our training in real-time, in Pytorch, TF, Keras, etc."
               ></Resource>
+
+              <Resource
+                title="LabML.ai"
+                link="https://labml.ai"
+                detail=" - consists of annotated papers with PyTorch implementations, and trending research papers section."
+              ></Resource>
               
               <Resource
               title="Hugging Face"
