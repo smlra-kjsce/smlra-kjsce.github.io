@@ -59,7 +59,7 @@ export default function Footer() {
               <li className="list-inline-item">
                 <a
                   className="btn-floating btn-fb mx-1"
-                  href="https://discord.gg/qmXk6bMc"
+                  href="https://discord.gg/JGKcXwfwdq"
                 >
                   <i className="fab fa-discord fa-2x"> </i>
                 </a>
