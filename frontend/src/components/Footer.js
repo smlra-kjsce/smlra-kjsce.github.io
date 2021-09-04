@@ -88,6 +88,14 @@ export default function Footer() {
                   <i className="fab fa-instagram fa-2x"> </i>
                 </a>
               </li>
+              <li className="list-inline-item">
+                <a
+                  className="btn-floating btn-fb mx-1"
+                  href="https://www.youtube.com/channel/UCsYUjEG3xQptikdWySlr6WQ"
+                >
+                  <i className="fab fa-youtube fa-2x"> </i>
+                </a>
+              </li>
               <li className="list-inline-item" style={{ color: "#0bebf3" }}>
                 <a
                   className="btn-floating btn-tw mx-1"
