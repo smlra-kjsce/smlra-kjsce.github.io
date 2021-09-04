@@ -261,11 +261,17 @@ export default function Resources() {
               detail=" - an underrated YouTube channel with amazing content, coding many concepts from scratch."
             ></Resource>
 
-              <Resource
-                title="Illustrated Guide to LSTMs and GRUs: A step by step explanation"
-                link="https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21"
-                detail=" by Michael Phi on Towards Data Science"
-              ></Resource>
+            <Resource
+              title="Two Minute Papers"
+              link="https://www.youtube.com/c/K%C3%A1rolyZsolnai"
+              detail=" - A YouTube channel that summarizes the latest exciting research papers with layman output explanations."
+            ></Resource>
+
+            <Resource
+              title="Illustrated Guide to LSTMs and GRUs: A step by step explanation"
+              link="https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21"
+              detail=" by Michael Phi on Towards Data Science"
+            ></Resource>
             </div>
 
             {/* Cool Libraries | Websites */}
@@ -275,16 +281,35 @@ export default function Resources() {
               role="tabpanel"
               aria-labelledby="libraries-tab"
             >
+
+            <Resource
+              title="Deep Learning Drizzle"
+              link="https://deep-learning-drizzle.github.io/"
+              detail=" - an exhaustive one-stop-for-all list of well-curated resources for almost everything in AI!"
+            ></Resource>
+            
+            <Resource
+            title="LabML.ai"
+            link="https://labml.ai"
+            detail=" - consists of annotated papers with PyTorch implementations, and trending research papers section."
+          ></Resource>
+            
+             <Resource
+            title="Made With ML"
+            link="https://madewithml.com"
+            detail=" - learn basics of ML and MLOps through intuitive explanations and clean code to deliver quality-grade product."
+            ></Resource>
+
+            <Resource
+              title="Papers With Code"
+              link="https://paperswithcode.com"
+              detail=" - a free and open resource with Machine Learning papers, code and evaluation tables."
+            ></Resource>
+
               <Resource
                 title="Weights and Biases"
                 link="https://wandb.ai"
                 detail=" - allows us to monitor our training in real-time, in Pytorch, TF, Keras, etc."
-              ></Resource>
-
-              <Resource
-                title="LabML.ai"
-                link="https://labml.ai"
-                detail=" - consists of annotated papers with PyTorch implementations, and trending research papers section."
               ></Resource>
               
               <Resource
@@ -292,18 +317,6 @@ export default function Resources() {
               link="https://huggingface.co"
               detail=" - build, train and deploy state-of-the-art models powered by the reference open-source in NLP."
             ></Resource>
-            
-              <Resource
-              title="Made With ML"
-              link="https://madewithml.com"
-              detail=" - learn basics of ML and MLOps through intuitive explanations and clean code to deliver quality-grade product."
-              ></Resource>
-
-              <Resource
-                title="Papers With Code"
-                link="https://paperswithcode.com"
-                detail=" - a free and open resource with Machine Learning papers, code and evaluation tables."
-              ></Resource>
               
               <Resource
                 title="The Batch by deeplearning.ai"
@@ -339,9 +352,9 @@ export default function Resources() {
               aria-labelledby="papers-tab"
             >
               <Resource
-                title="Deep Residual Learning for Image Recognition"
-                link="https://arxiv.org/pdf/1512.03385.pdf"
-                detail=" by He et al. of Microsoft Research, 2015"
+                title="Omnimatte: Associating Objects and Their Effects in Video"
+                link="https://omnimatte.github.io/"
+                detail=" by Lu et al., Google Research, Oxford and WIS, 2021"
               ></Resource>
 
               <Resource
@@ -349,6 +362,19 @@ export default function Resources() {
                 link="https://arxiv.org/pdf/2105.01601.pdf"
                 detail=" by Tolstikhin et al. of Google Brain, 2021"
               ></Resource>
+
+              <Resource
+                title="Attention is All You Need"
+                link="https://arxiv.org/pdf/1706.03762.pdf"
+                detail=" by Vaswani et al. of Google Brain, 2017"
+              ></Resource>
+              
+              <Resource
+                title="Deep Residual Learning for Image Recognition"
+                link="https://arxiv.org/pdf/1512.03385.pdf"
+                detail=" by He et al. of Microsoft Research, 2015"
+              ></Resource>
+
             </div>
 
           </div>
