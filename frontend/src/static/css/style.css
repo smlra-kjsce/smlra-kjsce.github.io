@@ -170,21 +170,15 @@ iframe {
   .card-width {
     max-width: 100%;
   }
-}
 
-@media only screen and (max-width: 900px) {
   p {
     font-size: 90% !important;
   }
-}
 
-@media only screen and (max-width: 900px) {
   p {
     font-size: 90% !important;
   }
-}
 
-@media only screen and (max-width: 900px) {
   .c1 {
     width: 95% !important;
   }
@@ -223,15 +217,11 @@ iframe {
   .ini-us {
     font-size: 250%;
   }
-}
 
-@media only screen and (max-width: 900px) {
   iframe {
     width: 90% !important;
   }
-}
 
-@media only screen and (max-width: 900px) {
   .btext {
     /* position: relative; */
     position: absolute;
