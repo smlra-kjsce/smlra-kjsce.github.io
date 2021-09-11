@@ -11,6 +11,8 @@ name: Build & deploy
 on: [push, pull_request]
 
 jobs:
+  env:
+    CI: ""
   build:
     name: Build
     runs-on: ubuntu-latest
