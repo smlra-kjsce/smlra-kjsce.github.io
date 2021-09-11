@@ -3,14 +3,16 @@ import "../static/css/style.css";
 
 export default function Blog(props) {
   return (
-    <div className="col-lg-6">
+    <div className="col-auto mx-auto">
       <div
         className="card shadow"
         style={{
           borderWidth: "0px",
           marginBottom: "25px",
+          paddingBottom: "25px",
           overflow: "hidden",
           height: "720px",
+          maxWidth: "500px",
         }}
       >
         <a href={props.link}>

@@ -4,7 +4,10 @@ import "../static/css/style.css";
 export default function Initiative(props) {
   return (
     <div className="col-lg-6">
-      <div className="card" style={{ marginBottom: "20px", height: "720px" }}>
+      <div
+        className="card mx-auto"
+        style={{ marginBottom: "20px", height: "720px", maxWidth: "500px" }}
+      >
         <img className="card-img-top" src={props.photo} alt="Card image cap" />
         <div className="card-body">
           <h5 className="card-title">{props.title}</h5>
