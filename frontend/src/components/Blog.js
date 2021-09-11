@@ -10,6 +10,7 @@ export default function Blog(props) {
           borderWidth: "0px",
           marginBottom: "25px",
           overflow: "hidden",
+          height: "720px",
         }}
       >
         <a href={props.link}>
