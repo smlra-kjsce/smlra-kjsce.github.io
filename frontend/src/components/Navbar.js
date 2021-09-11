@@ -6,7 +6,7 @@ import pic from "../static/Images/pic.png";
 export default function Navbar() {
   return (
     <nav
-      className="navbar navbar-expand-lg navbar-dark"
+      className="navbar navbar-expand-xl navbar-dark"
       style={{ backgroundColor: "black" }}
     >
       <Link className="navbar-brand" to="/" exact>
