@@ -13,6 +13,7 @@ import blog3 from "../static/Images/blog3_img.PNG";
 import blog4 from "../static/Images/blog4_img.PNG";
 import blog5 from "../static/Images/blog5_img.PNG";
 import blog6 from "../static/Images/blog6_img.PNG";
+import blog7 from "../static/Images/blog7_img.jpeg";
 
 export default function Blogs() {
   return (
@@ -28,6 +29,21 @@ export default function Blogs() {
       <div className="blg" style={{ marginTop: "10%" }}>
         <h2 className="display-4 pb-5 text-center ini-us">BLOGS BY SMLRA</h2>
         <div className="row card-row">
+        <Blog
+            title="Exploring the naïvety of Naive Bayes"
+            body="A machine learning beginner who starts from scratch knows all the fancy 
+            Machine Learning algorithms such as Support Vector Machines, Random forests, etc. 
+            But, a simplistic yet powerful algorithm hidden in plain sight is often dropped 
+            out(pun intended) by many. As you might have guessed by now, we are talking about 
+            Naive Bayes. As the name suggests, this classification algorithm is based on the 
+            very famous Bayes Theorem of probability. Simply put, Naive Bayes is a 
+            probabilistic classifier that comes under the family of supervised learning 
+            algorithms.
+            "
+            link="https://smlra-kjsce.medium.com/exploring-the-na%C3%AFvety-of-naive-bayes-3db82089004a"
+            date="16th June 2021"
+            photo={blog7}
+          ></Blog>
           <Blog
             title="The Secrets of SVMs"
             body="This article is continuation of 2nd part in “ML-DL-101” series

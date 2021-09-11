@@ -11,6 +11,7 @@ import meme from "../static/Images/Events/meme.png";
 import hackdcovid from "../static/Images/Events/hack-d-covid.jpeg";
 import pytorch from "../static/Images/Events/pytorch.jpeg";
 import ML101 from "../static/Images/Events/ML101.PNG";
+import ML101_2021 from "../static/Images/Events/ml101-2021.jpeg"
 import pieandai from "../static/Images/Events/pie-and-ai-1.jpeg";
 import NLP101 from "../static/Images/Events/NLP-101.jpg";
 import MLcyber from "../static/Images/Events/ML-Cyber.jpeg";
@@ -46,9 +47,9 @@ export default function Initiatives() {
             role="tablist"
             style={{ marginBottom: "5%" }}
           >
-            {/* <li className="nav-item">
+            <li className="nav-item">
               <a
-                className="nav-link"
+                className="nav-link active"
                 id="skills-2021-tab"
                 data-toggle="tab"
                 href="#skills-2021"
@@ -58,10 +59,10 @@ export default function Initiatives() {
               >
                 2021-22
               </a>
-            </li> */}
+            </li>
             <li className="nav-item">
               <a
-                className="nav-link active"
+                className="nav-link"
                 id="skills-2020-tab"
                 data-toggle="tab"
                 href="#skills-2020"
@@ -101,23 +102,29 @@ export default function Initiatives() {
           </ul>
 
           <div className="tab-content" id="myTabContent">
-            {/* <div
-              className="tab-pane fade"
+            <div
+              className="tab-pane fade show active"
               id="skills-2021"
               role="tabpanel"
               aria-labelledby="skills-2021-tab"
             >
               <div className="card-deck">
-                <Initiative />
-                <Initiative />
+              <Initiative
+                  title="ML-101: Hands-on Introduction to Machine Learning"
+                  body="SMLRA conducted its first session of the academic year with ML-101,
+                        covering important concepts and mathematical intuitions behind algorithms
+                        like linear regression, logistic regression, Naive Bayes algorithm, 
+                        K-means clustering and Support Vector Machines (SVM)."
+                  photo={ML101_2021}
+                  date="5th September, 2021"
+                  github="https://github.com/smlra-kjsce/ML-101-2021"
+                  youtube="https://www.youtube.com/watch?v=B9KKlrlErMk"
+                ></Initiative>
               </div>
-              <br />
-              <div className="card-deck">
-                <Initiative />
-              </div>
-            </div> */}
+            </div>
+
             <div
-              className="tab-pane fade show active"
+              className="tab-pane fade"
               id="skills-2020"
               role="tabpanel"
               aria-labelledby="skills-2020-tab"
@@ -177,6 +184,14 @@ export default function Initiatives() {
                   github="https://github.com/smlra-kjsce/ML-101"
                   youtube="https://www.youtube.com/playlist?list=PLNyf6p4HkSL9bMZlD8x9P1KC_rxmVW3zg"
                 ></Initiative>
+                <Initiative
+                  title="Pie &amp; AI - Navi Mumbai: The Past &amp; Future of AI"
+                  body="SMLRA's first “Pie &amp; AI” session in collaboration with
+                  deeplearning.ai with guest speaker “Mr. Shaun D'Souza”."
+                  photo={pieandai}
+                  date="6th June, 2020"
+                  youtube="https://www.youtube.com/watch?v=QPPc8V-Zg4w"
+                ></Initiative>
               </div>
             </div>
             <div
@@ -186,14 +201,6 @@ export default function Initiatives() {
               aria-labelledby="skills-2019-tab"
             >
               <div className="row">
-                <Initiative
-                  title="Pie &amp; AI - Navi Mumbai: The Past &amp; Future of AI"
-                  body="SMLRA's first “Pie &amp; AI” session in collaboration with
-                  deeplearning.ai with guest speaker “Mr. Shaun D'Souza”."
-                  photo={pieandai}
-                  date="6th June, 2020"
-                  youtube="https://www.youtube.com/watch?v=QPPc8V-Zg4w"
-                ></Initiative>
                 <Initiative
                   title="Deep Learning in NLP-101"
                   body="In this student-led symposium, an introduction to
