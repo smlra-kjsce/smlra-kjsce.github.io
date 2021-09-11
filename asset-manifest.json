@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.acd77036.chunk.css",
-    "main.js": "/static/js/main.413669c4.chunk.js",
-    "main.js.map": "/static/js/main.413669c4.chunk.js.map",
+    "main.js": "/static/js/main.e5324b06.chunk.js",
+    "main.js.map": "/static/js/main.e5324b06.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.65211f0a.js",
     "runtime-main.js.map": "/static/js/runtime-main.65211f0a.js.map",
     "static/css/2.f78674c2.chunk.css": "/static/css/2.f78674c2.chunk.css",
@@ -31,6 +31,7 @@
     "static/media/blog4_img.8dfff47a.PNG": "/static/media/blog4_img.8dfff47a.PNG",
     "static/media/blog5_img.f4b672da.PNG": "/static/media/blog5_img.f4b672da.PNG",
     "static/media/blog6_img.cb5d5fa9.PNG": "/static/media/blog6_img.cb5d5fa9.PNG",
+    "static/media/blog7_img.f3db63b0.jpeg": "/static/media/blog7_img.f3db63b0.jpeg",
     "static/media/blogging.83a3fd9f.svg": "/static/media/blogging.83a3fd9f.svg",
     "static/media/burhanuddin.58022a4e.png": "/static/media/burhanuddin.58022a4e.png",
     "static/media/contact.bea00899.svg": "/static/media/contact.bea00899.svg",
@@ -41,6 +42,7 @@
     "static/media/jenson.745f526a.jpg": "/static/media/jenson.745f526a.jpg",
     "static/media/kjsce.9a50be7a.jpeg": "/static/media/kjsce.9a50be7a.jpeg",
     "static/media/meme.555f93b2.png": "/static/media/meme.555f93b2.png",
+    "static/media/ml101-2021.46873863.jpeg": "/static/media/ml101-2021.46873863.jpeg",
     "static/media/mldl101.e3b71e95.jpg": "/static/media/mldl101.e3b71e95.jpg",
     "static/media/nlp.5a130989.png": "/static/media/nlp.5a130989.png",
     "static/media/pic.3b5b51b4.png": "/static/media/pic.3b5b51b4.png",
@@ -66,6 +68,6 @@
     "static/css/2.f78674c2.chunk.css",
     "static/js/2.bacb13ca.chunk.js",
     "static/css/main.acd77036.chunk.css",
-    "static/js/main.413669c4.chunk.js"
+    "static/js/main.e5324b06.chunk.js"
   ]
 }
