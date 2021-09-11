@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.d7b92684.chunk.css",
-    "main.js": "/static/js/main.70bfa27a.chunk.js",
-    "main.js.map": "/static/js/main.70bfa27a.chunk.js.map",
+    "main.css": "/static/css/main.b452e816.chunk.css",
+    "main.js": "/static/js/main.f3e59b3d.chunk.js",
+    "main.js.map": "/static/js/main.f3e59b3d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.65211f0a.js",
     "runtime-main.js.map": "/static/js/runtime-main.65211f0a.js.map",
     "static/css/2.f78674c2.chunk.css": "/static/css/2.f78674c2.chunk.css",
-    "static/js/2.7df3d44f.chunk.js": "/static/js/2.7df3d44f.chunk.js",
-    "static/js/2.7df3d44f.chunk.js.map": "/static/js/2.7df3d44f.chunk.js.map",
+    "static/js/2.be2a1fb2.chunk.js": "/static/js/2.be2a1fb2.chunk.js",
+    "static/js/2.be2a1fb2.chunk.js.map": "/static/js/2.be2a1fb2.chunk.js.map",
     "static/js/3.af6152f6.chunk.js": "/static/js/3.af6152f6.chunk.js",
     "static/js/3.af6152f6.chunk.js.map": "/static/js/3.af6152f6.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.f78674c2.chunk.css.map": "/static/css/2.f78674c2.chunk.css.map",
-    "static/css/main.d7b92684.chunk.css.map": "/static/css/main.d7b92684.chunk.css.map",
-    "static/js/2.7df3d44f.chunk.js.LICENSE.txt": "/static/js/2.7df3d44f.chunk.js.LICENSE.txt",
+    "static/css/main.b452e816.chunk.css.map": "/static/css/main.b452e816.chunk.css.map",
+    "static/js/2.be2a1fb2.chunk.js.LICENSE.txt": "/static/js/2.be2a1fb2.chunk.js.LICENSE.txt",
     "static/media/Aayush.6dd8f881.jpg": "/static/media/Aayush.6dd8f881.jpg",
     "static/media/Arghyadeep.5350b6af.jpg": "/static/media/Arghyadeep.5350b6af.jpg",
     "static/media/GANs.bdee90c7.jpg": "/static/media/GANs.bdee90c7.jpg",
@@ -33,7 +33,7 @@
     "static/media/blog6_img.cb5d5fa9.PNG": "/static/media/blog6_img.cb5d5fa9.PNG",
     "static/media/blogging.83a3fd9f.svg": "/static/media/blogging.83a3fd9f.svg",
     "static/media/burhanuddin.58022a4e.png": "/static/media/burhanuddin.58022a4e.png",
-    "static/media/contact.bea00899.svg": "/static/media/contact.bea00899.svg",
+    "static/media/contact.189b2cf0.svg": "/static/media/contact.189b2cf0.svg",
     "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.f691f37e.woff",
     "static/media/hack-d-covid.cfae1901.jpeg": "/static/media/hack-d-covid.cfae1901.jpeg",
     "static/media/jasdeep.8de36a1f.jpeg": "/static/media/jasdeep.8de36a1f.jpeg",
@@ -64,8 +64,8 @@
   "entrypoints": [
     "static/js/runtime-main.65211f0a.js",
     "static/css/2.f78674c2.chunk.css",
-    "static/js/2.7df3d44f.chunk.js",
-    "static/css/main.d7b92684.chunk.css",
-    "static/js/main.70bfa27a.chunk.js"
+    "static/js/2.be2a1fb2.chunk.js",
+    "static/css/main.b452e816.chunk.css",
+    "static/js/main.f3e59b3d.chunk.js"
   ]
 }
