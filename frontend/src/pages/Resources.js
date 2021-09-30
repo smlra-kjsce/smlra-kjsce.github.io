@@ -113,7 +113,7 @@ export default function Resources() {
               <Resource
                 title="Essence of Neural Networks"
                 link="hhttps://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi"
-                detail=" - best conceptual explaination by 3Blue1Brown"
+                detail=" - best conceptual explanation of neural networks by 3Blue1Brown"
               ></Resource>
 
               <Resource
@@ -238,6 +238,12 @@ export default function Resources() {
               ></Resource>
 
               <Resource
+              title="Lex Fridman"
+              link="https://www.youtube.com/channel/UCSHZKyawb77ixDdsGog4iWA"
+              detail=" - a podcast on everything ML, as well as other aspects to succeed and feel motivated in life."
+            ></Resource>
+
+              <Resource
                 title="elvis on Twitter"
                 link="https://twitter.com/omarsar0"
                 detail=" - shares new resources / papers / tips on Twitter daily"
@@ -262,9 +268,27 @@ export default function Resources() {
             ></Resource>
 
             <Resource
+              title="Yannic Kilcher"
+              link="https://www.youtube.com/c/YannicKilcher"
+              detail=" - one of the top YouTube channel for ML news and everything new in the field of AI."
+            ></Resource>
+
+            <Resource
               title="Two Minute Papers"
               link="https://www.youtube.com/c/K%C3%A1rolyZsolnai"
               detail=" - A YouTube channel that summarizes the latest exciting research papers with layman output explanations."
+            ></Resource>
+
+            <Resource
+              title="Sentdex"
+              link="https://www.youtube.com/c/K%C3%A1rolyZsolnai"
+              detail=" - learn everything from scratch in Python, be it machine learning, web development, etc. with Harrison."
+            ></Resource>
+
+            <Resource
+              title="Arxiv Insights"
+              link="https://www.youtube.com/c/ArxivInsights/"
+              detail=" - A YouTube channel that summarizes the core technical takeaways on different ML concepts."
             ></Resource>
 
             <Resource
