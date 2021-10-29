@@ -11,7 +11,7 @@ import meme from "../static/Images/Events/meme.png";
 import hackdcovid from "../static/Images/Events/hack-d-covid.jpeg";
 import pytorch from "../static/Images/Events/pytorch.jpeg";
 import ML101 from "../static/Images/Events/ML101.PNG";
-import ML101_2021 from "../static/Images/Events/ml101-2021.jpeg"
+import ML101_2021 from "../static/Images/Events/ml101-2021.jpeg";
 import pieandai from "../static/Images/Events/pie-and-ai-1.jpeg";
 import NLP101 from "../static/Images/Events/NLP-101.jpg";
 import MLcyber from "../static/Images/Events/ML-Cyber.jpeg";
@@ -22,6 +22,7 @@ import rnn from "../static/Images/Events/rnn.png";
 import nlp from "../static/Images/Events/nlp.png";
 import rishabh from "../static/Images/Events/rishabh.jpg";
 import alexnet from "../static/Images/Events/alexnet.png";
+import data_handling_and_vis from "../static/Images/Events/data_handling_and_vis.jpeg";
 
 export default function Initiatives() {
   return (
@@ -108,8 +109,8 @@ export default function Initiatives() {
               role="tabpanel"
               aria-labelledby="skills-2021-tab"
             >
-              <div className="card-deck">
-              <Initiative
+              <div className="row">
+                <Initiative
                   title="ML-101: Hands-on Introduction to Machine Learning"
                   body="SMLRA conducted its first session of the academic year with ML-101,
                         covering important concepts and mathematical intuitions behind algorithms
@@ -119,6 +120,14 @@ export default function Initiatives() {
                   date="5th September, 2021"
                   github="https://github.com/smlra-kjsce/ML-101-2021"
                   youtube="https://www.youtube.com/watch?v=B9KKlrlErMk"
+                ></Initiative>
+                <Initiative
+                  title="Data Handling and Visualization for Machine Learning"
+                  body="Working with ML means working with Data. In this session, we covered four foundational libraries in python with the focus on Data Handling and Visualization. Namely Numpy, Pandas, Matplotlib and Seaborne were discussed."
+                  photo={data_handling_and_vis}
+                  date="17th October, 2021"
+                  github="https://github.com/smlra-kjsce/numpy-pandas-vis-2021"
+                  youtube="https://www.youtube.com/watch?v=uONsdYS-tk4"
                 ></Initiative>
               </div>
             </div>
