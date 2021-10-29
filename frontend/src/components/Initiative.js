@@ -8,7 +8,12 @@ export default function Initiative(props) {
         className="card mx-auto"
         style={{ marginBottom: "20px", height: "720px", maxWidth: "500px" }}
       >
-        <img className="card-img-top" src={props.photo} alt="Card image cap" />
+        <img
+          className="card-img-top"
+          src={props.photo}
+          alt="Card image cap"
+          style={{ maxHeight: "300px" }}
+        />
         <div className="card-body">
           <h5 className="card-title">{props.title}</h5>
           <p className="card-text" style={{ textAlign: "justify" }}>
