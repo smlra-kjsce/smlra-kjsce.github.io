@@ -22,7 +22,7 @@ import rnn from "../static/Images/Events/rnn.png";
 import nlp from "../static/Images/Events/nlp.png";
 import rishabh from "../static/Images/Events/rishabh.jpg";
 import alexnet from "../static/Images/Events/alexnet.png";
-import data_handling_and_vis from "../static/Images/Events/data_handling_and_vis.jpeg";
+import data_handling_and_vis from "../static/Images/Events/data_handling_and_vis.png";
 
 export default function Initiatives() {
   return (
