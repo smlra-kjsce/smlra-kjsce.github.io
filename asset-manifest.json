@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.acd77036.chunk.css",
-    "main.js": "/static/js/main.740b0a4c.chunk.js",
-    "main.js.map": "/static/js/main.740b0a4c.chunk.js.map",
+    "main.js": "/static/js/main.c2b49de7.chunk.js",
+    "main.js.map": "/static/js/main.c2b49de7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.65211f0a.js",
     "runtime-main.js.map": "/static/js/runtime-main.65211f0a.js.map",
     "static/css/2.f78674c2.chunk.css": "/static/css/2.f78674c2.chunk.css",
@@ -35,7 +35,7 @@
     "static/media/blogging.83a3fd9f.svg": "/static/media/blogging.83a3fd9f.svg",
     "static/media/burhanuddin.58022a4e.png": "/static/media/burhanuddin.58022a4e.png",
     "static/media/contact.bea00899.svg": "/static/media/contact.bea00899.svg",
-    "static/media/data_handling_and_vis.71d64e5e.jpeg": "/static/media/data_handling_and_vis.71d64e5e.jpeg",
+    "static/media/data_handling_and_vis.9e703d0a.png": "/static/media/data_handling_and_vis.9e703d0a.png",
     "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.f691f37e.woff",
     "static/media/hack-d-covid.cfae1901.jpeg": "/static/media/hack-d-covid.cfae1901.jpeg",
     "static/media/jasdeep.8de36a1f.jpeg": "/static/media/jasdeep.8de36a1f.jpeg",
@@ -69,6 +69,6 @@
     "static/css/2.f78674c2.chunk.css",
     "static/js/2.bacb13ca.chunk.js",
     "static/css/main.acd77036.chunk.css",
-    "static/js/main.740b0a4c.chunk.js"
+    "static/js/main.c2b49de7.chunk.js"
   ]
 }
