@@ -24,9 +24,10 @@ export default function Resources() {
           <p style={{ paddingTop: "1%", fontSize: "xx-large" }}>RESOURCES</p>
           {/* <hr style="background-color: black; width: 50%;"> */}
           <p style={{ fontSize: "large" }} className="ill-text-ini">
-            The quotidian question that we always encounter is: Where do I start in ML?
-            Therefore, we have collected some resources that are periodically updated from time-to-time
-            to cover a variety of aspects of ML including blogs and people to follow, courses to take and 
+            The quotidian question that we always encounter is: Where do I start
+            in ML? Therefore, we have collected some resources that are
+            periodically updated from time-to-time to cover a variety of aspects
+            of ML including blogs and people to follow, courses to take and
             papers to read!
           </p>
           <p />
@@ -34,7 +35,9 @@ export default function Resources() {
       </div>
       <div id="Skills" style={{ paddingTop: "5px", marginBottom: "3%" }}>
         <div className=" p-5  container">
-          <h2 className="display-4 pb-5 text-center ini-us">LIST OF RESOURCES</h2>
+          <h2 className="display-4 pb-5 text-center ini-us">
+            LIST OF RESOURCES
+          </h2>
           <ul
             className="nav nav-tabs nav-fill bg-dark rounded"
             id="myTab"
@@ -103,11 +106,16 @@ export default function Resources() {
               role="tabpanel"
               aria-labelledby="tutorials-tab"
             >
-
               <Resource
                 title="Machine Learning on Coursera"
                 link="https://www.coursera.org/learn/machine-learning"
                 detail=" by Andrew Ng, Stanford University"
+              ></Resource>
+
+              <Resource
+                title="Full Stack Deep Learning - 2022"
+                link="https://www.youtube.com/playlist?list=PL1T8fO7ArWleMMI8KPJ_5D5XSlovTW_Ur"
+                detail=" by Full Stack Deep Learning"
               ></Resource>
 
               <Resource
@@ -206,13 +214,13 @@ export default function Resources() {
                 link="https://www.youtube.com/c/3blue1brown/"
                 detail=" - best channel to get visually-detailed explanation of many mathematical concepts."
               ></Resource>
-              
+
               <Resource
                 title="Chris Olah's blog"
                 link="https://colah.github.io"
                 detail=" - works in Anthropic AI, ex-Google Brain. Excellent blogs on ML topics for visual understanding."
               ></Resource>
-              
+
               <Resource
                 title="Jeremy Jordan's blog"
                 link="https://jeremyjordan.me"
@@ -238,10 +246,10 @@ export default function Resources() {
               ></Resource>
 
               <Resource
-              title="Lex Fridman"
-              link="https://www.youtube.com/channel/UCSHZKyawb77ixDdsGog4iWA"
-              detail=" - a podcast on everything ML, as well as other aspects to succeed and feel motivated in life."
-            ></Resource>
+                title="Lex Fridman"
+                link="https://www.youtube.com/channel/UCSHZKyawb77ixDdsGog4iWA"
+                detail=" - a podcast on everything ML, as well as other aspects to succeed and feel motivated in life."
+              ></Resource>
 
               <Resource
                 title="elvis on Twitter"
@@ -254,48 +262,48 @@ export default function Resources() {
                 link="https://twitter.com/svpino"
                 detail=" - shares ML threads / advice / interesting problems  on Twitter daily"
               ></Resource>
-              
+
               <Resource
-              title="Abhishek Thakur"
-              link="https://www.youtube.com/AbhishekThakurAbhi"
-              detail=" - World's First 4x Kaggle Grandmaster, with YouTube channel to learn about ML concepts, Kaggle, etc."
-            ></Resource>
+                title="Abhishek Thakur"
+                link="https://www.youtube.com/AbhishekThakurAbhi"
+                detail=" - World's First 4x Kaggle Grandmaster, with YouTube channel to learn about ML concepts, Kaggle, etc."
+              ></Resource>
 
-            <Resource
-              title="Mark Saroufim"
-              link="https://www.youtube.com/user/marksaroufim/videos"
-              detail=" - an underrated YouTube channel with amazing content, coding many concepts from scratch."
-            ></Resource>
+              <Resource
+                title="Mark Saroufim"
+                link="https://www.youtube.com/user/marksaroufim/videos"
+                detail=" - an underrated YouTube channel with amazing content, coding many concepts from scratch."
+              ></Resource>
 
-            <Resource
-              title="Yannic Kilcher"
-              link="https://www.youtube.com/c/YannicKilcher"
-              detail=" - one of the top YouTube channel for ML news and everything new in the field of AI."
-            ></Resource>
+              <Resource
+                title="Yannic Kilcher"
+                link="https://www.youtube.com/c/YannicKilcher"
+                detail=" - one of the top YouTube channel for ML news and everything new in the field of AI."
+              ></Resource>
 
-            <Resource
-              title="Two Minute Papers"
-              link="https://www.youtube.com/c/K%C3%A1rolyZsolnai"
-              detail=" - A YouTube channel that summarizes the latest exciting research papers with layman output explanations."
-            ></Resource>
+              <Resource
+                title="Two Minute Papers"
+                link="https://www.youtube.com/c/K%C3%A1rolyZsolnai"
+                detail=" - A YouTube channel that summarizes the latest exciting research papers with layman output explanations."
+              ></Resource>
 
-            <Resource
-              title="Sentdex"
-              link="https://www.youtube.com/c/K%C3%A1rolyZsolnai"
-              detail=" - learn everything from scratch in Python, be it machine learning, web development, etc. with Harrison."
-            ></Resource>
+              <Resource
+                title="Sentdex"
+                link="https://www.youtube.com/c/K%C3%A1rolyZsolnai"
+                detail=" - learn everything from scratch in Python, be it machine learning, web development, etc. with Harrison."
+              ></Resource>
 
-            <Resource
-              title="Arxiv Insights"
-              link="https://www.youtube.com/c/ArxivInsights/"
-              detail=" - A YouTube channel that summarizes the core technical takeaways on different ML concepts."
-            ></Resource>
+              <Resource
+                title="Arxiv Insights"
+                link="https://www.youtube.com/c/ArxivInsights/"
+                detail=" - A YouTube channel that summarizes the core technical takeaways on different ML concepts."
+              ></Resource>
 
-            <Resource
-              title="Illustrated Guide to LSTMs and GRUs: A step by step explanation"
-              link="https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21"
-              detail=" by Michael Phi on Towards Data Science"
-            ></Resource>
+              <Resource
+                title="Illustrated Guide to LSTMs and GRUs: A step by step explanation"
+                link="https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21"
+                detail=" by Michael Phi on Towards Data Science"
+              ></Resource>
             </div>
 
             {/* Cool Libraries | Websites */}
@@ -305,67 +313,65 @@ export default function Resources() {
               role="tabpanel"
               aria-labelledby="libraries-tab"
             >
+              <Resource
+                title="Deep Learning Drizzle"
+                link="https://deep-learning-drizzle.github.io/"
+                detail=" - an exhaustive one-stop-for-all list of well-curated resources for almost everything in AI!"
+              ></Resource>
 
-            <Resource
-              title="Deep Learning Drizzle"
-              link="https://deep-learning-drizzle.github.io/"
-              detail=" - an exhaustive one-stop-for-all list of well-curated resources for almost everything in AI!"
-            ></Resource>
-            
-            <Resource
-            title="LabML.ai"
-            link="https://labml.ai"
-            detail=" - consists of annotated papers with PyTorch implementations, and trending research papers section."
-          ></Resource>
-            
-             <Resource
-            title="Made With ML"
-            link="https://madewithml.com"
-            detail=" - learn basics of ML and MLOps through intuitive explanations and clean code to deliver quality-grade product."
-            ></Resource>
+              <Resource
+                title="LabML.ai"
+                link="https://labml.ai"
+                detail=" - consists of annotated papers with PyTorch implementations, and trending research papers section."
+              ></Resource>
 
-            <Resource
-              title="Papers With Code"
-              link="https://paperswithcode.com"
-              detail=" - a free and open resource with Machine Learning papers, code and evaluation tables."
-            ></Resource>
+              <Resource
+                title="Made With ML"
+                link="https://madewithml.com"
+                detail=" - learn basics of ML and MLOps through intuitive explanations and clean code to deliver quality-grade product."
+              ></Resource>
+
+              <Resource
+                title="Papers With Code"
+                link="https://paperswithcode.com"
+                detail=" - a free and open resource with Machine Learning papers, code and evaluation tables."
+              ></Resource>
 
               <Resource
                 title="Weights and Biases"
                 link="https://wandb.ai"
                 detail=" - allows us to monitor our training in real-time, in Pytorch, TF, Keras, etc."
               ></Resource>
-              
+
               <Resource
-              title="Hugging Face"
-              link="https://huggingface.co"
-              detail=" - build, train and deploy state-of-the-art models powered by the reference open-source in NLP."
-            ></Resource>
-              
+                title="Hugging Face"
+                link="https://huggingface.co"
+                detail=" - build, train and deploy state-of-the-art models powered by the reference open-source in NLP."
+              ></Resource>
+
               <Resource
                 title="The Batch by deeplearning.ai"
                 link="https://read.deeplearning.ai/the-batch/"
                 detail=" - weekly AI newsletter for engineers, executives, and enthusiasts."
               ></Resource>
-              
+
               <Resource
-              title="The AI Summer"
-              link="https://theaisummer.com"
-              detail=" - covers primitive math concepts and basic algorithms to design and development of state-of-the-art models."
-            ></Resource>
-            
+                title="The AI Summer"
+                link="https://theaisummer.com"
+                detail=" - covers primitive math concepts and basic algorithms to design and development of state-of-the-art models."
+              ></Resource>
+
               <Resource
-              title="OpenMined"
-              link="https://www.openmined.org/"
-              detail=" - open-source community working with privacy-preserving AI technologies like federated learning, etc."
-            ></Resource>
+                title="OpenMined"
+                link="https://www.openmined.org/"
+                detail=" - open-source community working with privacy-preserving AI technologies like federated learning, etc."
+              ></Resource>
 
               <Resource
                 title="fast.ai"
                 link="https://fast.ai"
                 detail=" - making neural networks uncool again."
               ></Resource>
-
             </div>
 
             {/* Research Papers to Read */}
@@ -392,15 +398,13 @@ export default function Resources() {
                 link="https://arxiv.org/pdf/1706.03762.pdf"
                 detail=" by Vaswani et al. of Google Brain, 2017"
               ></Resource>
-              
+
               <Resource
                 title="Deep Residual Learning for Image Recognition"
                 link="https://arxiv.org/pdf/1512.03385.pdf"
                 detail=" by He et al. of Microsoft Research, 2015"
               ></Resource>
-
             </div>
-
           </div>
         </div>
       </div>
