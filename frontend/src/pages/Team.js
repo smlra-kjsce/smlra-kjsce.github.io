@@ -36,7 +36,7 @@ export default function Team() {
         body="“Teamwork is the ability to work together toward a common vision.
         The ability to direct individual accomplishments toward
         organizational objectives. It is the fuel that allows common people
-        to attain uncommon results.” – Andrew Carnegie"
+        to attain uncommon results.” by Andrew Carnegie"
         photo={team}
       ></Header>
 
