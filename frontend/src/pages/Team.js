@@ -10,6 +10,12 @@ import team from "../static/Images/team.svg";
 import swatimaam from "../static/Images/profile_pics/swati maam.jpg";
 import vaibhavsir from "../static/Images/profile_pics/vaibhav sir.jpg";
 
+import alekhya from "../static/Images/profile_pics/Alekhya.jpg";
+import jiya from "../static/Images/profile_pics/Jiya.jpg";
+import mishtee from "../static/Images/profile_pics/Mishtee.jpg";
+import himanshu from "../static/Images/profile_pics/Himanshu.jpg";
+import kedar from "../static/Images/profile_pics/Kedar.jpg";
+
 import shubham from "../static/Images/profile_pics/shubham.jpg";
 import jatin from "../static/Images/profile_pics/jatin.png";
 import jenson from "../static/Images/profile_pics/jenson.jpg";
@@ -36,7 +42,7 @@ export default function Team() {
         body="“Teamwork is the ability to work together toward a common vision.
         The ability to direct individual accomplishments toward
         organizational objectives. It is the fuel that allows common people
-        to attain uncommon results.” by Andrew Carnegie"
+        to attain uncommon results.” - Andrew Carnegie"
         photo={team}
       ></Header>
 
