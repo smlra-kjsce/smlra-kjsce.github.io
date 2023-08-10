@@ -130,25 +130,8 @@ export default function Team() {
           coltype="col-md-6"
         ></MemberProfile>
         </div>
-        
-        // <h1 className="text-center">AI PROMOTERS</h1>
-        // <div className="row" style={{ marginTop: "3%" }}>
-        //   <MemberProfile
-        //     name="Jenson Joseph"
-        //     photo={jenson}
-        //     linkedin="https://www.linkedin.com/in/jenson-joseph-248479219/"
-        //     github="https://github.com/JJsupercoder"
-        //     coltype="col-md-6"
-        //   ></MemberProfile>
-        //   <MemberProfile
-        //     name="Shubham Varma"
-        //     photo={shubham}
-        //     instagram="https://www.instagram.com/shubham17varma/"
-        //     linkedin="https://www.linkedin.com/in/shubham-varma-r17092001/"
-        //     github="https://github.com/shubham17varma"
-        //     coltype="col-md-6"
-        //   ></MemberProfile>
-        // </div>
+
+
             
         <br />
         <br />
