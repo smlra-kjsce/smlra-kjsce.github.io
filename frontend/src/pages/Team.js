@@ -65,54 +65,8 @@ export default function Team() {
             coltype="col-lg-6"
           ></MemberProfile>
         </div>
+
         <h1 className="text-center">LEAD MENTORS</h1>
-        <div className="row" style={{ marginTop: "3%" }}>
-          <MemberProfile
-            name="Mayank Chowdhary"
-            photo={mayank}
-            instagram="https://www.instagram.com/mayank06302618/"
-            linkedin="https://www.linkedin.com/in/mayankchowdhary/"
-            github="https://github.com/m607stars"
-            coltype="col-md-6"
-          ></MemberProfile>
-          <MemberProfile
-            name="Rahil Parikh"
-            photo={rahil}
-            instagram="hhttps://www.instagram.com/rahil_parikh_/"
-            linkedin="https://www.linkedin.com/in/rahilparikh007"
-            github="https://github.com/Rahil-Parikh"
-            coltype="col-md-6"
-          ></MemberProfile>
-        </div>
-        <h1 className="text-center" style={{ margin: "3%" }}>
-          COMMUNITY MENTORS
-        </h1>
-        <div className="row" style={{ marginTop: "5%" }}>
-          <MemberProfile
-            name="Jatin Nainani"
-            photo={jatin}
-            instagram="https://www.instagram.com/jatinnainani56/"
-            linkedin="https://www.linkedin.com/in/jatin-nainani-a6b2331b3/"
-            github="https://github.com/NainaniJatinZ"
-            coltype="col-md-4"
-          ></MemberProfile>
-          <MemberProfile
-            name="Riya Gori"
-            photo={riya}
-            instagram="https://www.instagram.com/riya_gori/"
-            linkedin="https://www.linkedin.com/in/riya-gori/"
-            github="https://github.com/riyagori1203"
-            coltype="col-md-4"
-          ></MemberProfile>
-          <MemberProfile
-            name="Burhanuddin Rangwala"
-            photo={burhanuddin}
-            linkedin="https://www.linkedin.com/in/burhanuddin-rangwala-33a07a1a0/"
-            github="https://github.com/bamblebam"
-            coltype="col-md-4"
-          ></MemberProfile>
-        </div>
-        <h1 className="text-center">AI PROMOTERS</h1>
         <div className="row" style={{ marginTop: "3%" }}>
           <MemberProfile
             name="Jenson Joseph"
@@ -130,11 +84,290 @@ export default function Team() {
             coltype="col-md-6"
           ></MemberProfile>
         </div>
+
+        <h1 className="text-center" style={{ margin: "3%" }}>
+          COMMUNITY MENTORS
+        </h1>
+        <div className="row" style={{ marginTop: "5%" }}>
+        <MemberProfile
+          name="Alekhya Arra"
+          photo={alekhya}
+          instagram="https://www.instagram.com/alekyaarra/"
+          linkedin="https://www.linkedin.com/in/alekya-arra-b3528b233/"
+          github="https://github.com/alekyaarra"
+          coltype="col-md-6"
+        ></MemberProfile>
+        <MemberProfile
+          name="Himanshu Patil"
+          photo={himanshu}
+          instagram="https://www.instagram.com/hima_2457/"
+          linkedin="https://www.linkedin.com/in/himanshupatil829/"
+          github="https://github.com/agntgalahad"
+          coltype="col-md-6"
+        ></MemberProfile>
+        <MemberProfile
+          name="Mishtee Gandhi"
+          photo={mishtee}
+          instagram="https://instagram.com/gandhimishtee?igshid=ZDdkNTZiNTM="
+          linkedin="https://www.linkedin.com/in/mishtee-gandhi/"
+          github="https://github.com/mishteegandhi"
+          coltype="col-md-6"
+        ></MemberProfile>
+        <MemberProfile
+          name="Kedar Kulkarni"
+          photo={kedar}
+          instagram="https://www.instagram.com/bad_astronomer/"
+          linkedin="https://www.linkedin.com/in/kedar-kulkarni-87b033250/ "
+          github="https://github.com/Bad-Astronomer"
+          coltype="col-md-6"
+        ></MemberProfile>
+        <MemberProfile
+          name="Jiya Bhagat"
+          photo={jiya}
+          instagram="https://www.instagram.com/__jiya_bhagat__"
+          linkedin="https://www.linkedin.com/in/jiyabhagat"
+          github="https://github.com/juniperus01"
+          coltype="col-md-6"
+        ></MemberProfile>
+        </div>
+        
+        // <h1 className="text-center">AI PROMOTERS</h1>
+        // <div className="row" style={{ marginTop: "3%" }}>
+        //   <MemberProfile
+        //     name="Jenson Joseph"
+        //     photo={jenson}
+        //     linkedin="https://www.linkedin.com/in/jenson-joseph-248479219/"
+        //     github="https://github.com/JJsupercoder"
+        //     coltype="col-md-6"
+        //   ></MemberProfile>
+        //   <MemberProfile
+        //     name="Shubham Varma"
+        //     photo={shubham}
+        //     instagram="https://www.instagram.com/shubham17varma/"
+        //     linkedin="https://www.linkedin.com/in/shubham-varma-r17092001/"
+        //     github="https://github.com/shubham17varma"
+        //     coltype="col-md-6"
+        //   ></MemberProfile>
+        // </div>
         <br />
         <br />
+
         <h1 className="text-center" style={{ marginBottom: "2%" }}>
           PAST COUNCILS
         </h1>
+
+        <div className="bg-dark text-center">
+            <div
+              className="card-header border-light border"
+              id="heading2019"
+              style={{ padding: 0 }}
+            >
+              <h1 className="mb-0" style={{ fontSize: "xx-large" }}>
+                <button
+                  className="btn btn-link border-0"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapse2019"
+                  aria-expanded="false"
+                  aria-controls="collapse2019"
+                  style={{ fontSize: "80%" }}
+                >
+                  2022-23
+                </button>
+              </h1>
+            </div>
+            <div
+              id="collapse2019"
+              className="collapse"
+              aria-labelledby="heading2019"
+              data-parent="#accordionExample"
+            >
+              <div className="card-body bg-light">
+                <h1 className="text-center" style={{ margin: "3%" }}>
+                  LEAD MENTOR
+                </h1>
+                <MemberProfile
+                  name="Jatin Nainani"
+                  photo={jatin}
+                  instagram="https://www.instagram.com/jatinnainani56/"
+                  linkedin="https://www.linkedin.com/in/jatin-nainani-a6b2331b3/"
+                  github="https://github.com/NainaniJatinZ"
+                  coltype="col-md-4"
+                ></MemberProfile>
+                <MemberProfile
+                  name="Riya Gori"
+                  photo={riya}
+                  instagram="https://www.instagram.com/riya_gori/"
+                  linkedin="https://www.linkedin.com/in/riya-gori/"
+                  github="https://github.com/riyagori1203"
+                  coltype="col-md-4"
+                ></MemberProfile>
+                <MemberProfile
+                  name="Burhanuddin Rangwala"
+                  photo={burhanuddin}
+                  linkedin="https://www.linkedin.com/in/burhanuddin-rangwala-33a07a1a0/"
+                  github="https://github.com/bamblebam"
+                  coltype="col-md-4"
+                ></MemberProfile>
+                <h1 className="text-center">COMMUNITY MENTORS</h1>
+                <div className="row" style={{ marginTop: "3%" }}>
+                <MemberProfile
+                  name="Jenson Joseph"
+                  photo={jenson}
+                  linkedin="https://www.linkedin.com/in/jenson-joseph-248479219/"
+                  github="https://github.com/JJsupercoder"
+                  coltype="col-md-6"
+                ></MemberProfile>
+                <MemberProfile
+                  name="Shubham Varma"
+                  photo={shubham}
+                  instagram="https://www.instagram.com/shubham17varma/"
+                  linkedin="https://www.linkedin.com/in/shubham-varma-r17092001/"
+                  github="https://github.com/shubham17varma"
+                  coltype="col-md-6"
+                ></MemberProfile>
+                </div>
+                <h1 className="text-center">AI PROMOTERS</h1>
+                <div className="row" style={{ marginTop: "3%" }}>
+                <MemberProfile
+                  name="Alekhya Arra"
+                  photo={alekhya}
+                  instagram="https://www.instagram.com/alekyaarra/"
+                  linkedin="https://www.linkedin.com/in/alekya-arra-b3528b233/"
+                  github="https://github.com/alekyaarra"
+                  coltype="col-md-6"
+                ></MemberProfile>
+                <MemberProfile
+                  name="Himanshu Patil"
+                  photo={himanshu}
+                  instagram="https://www.instagram.com/hima_2457/"
+                  linkedin="https://www.linkedin.com/in/himanshupatil829/"
+                  github="https://github.com/agntgalahad"
+                  coltype="col-md-6"
+                ></MemberProfile>
+                <MemberProfile
+                  name="Mishtee Gandhi"
+                  photo={mishtee}
+                  instagram="https://instagram.com/gandhimishtee?igshid=ZDdkNTZiNTM="
+                  linkedin="https://www.linkedin.com/in/mishtee-gandhi/"
+                  github="https://github.com/mishteegandhi"
+                  coltype="col-md-6"
+                ></MemberProfile>
+                <MemberProfile
+                  name="Kedar Kulkarni"
+                  photo={kedar}
+                  instagram="https://www.instagram.com/bad_astronomer/"
+                  linkedin="https://www.linkedin.com/in/kedar-kulkarni-87b033250/ "
+                  github="https://github.com/Bad-Astronomer"
+                  coltype="col-md-6"
+                ></MemberProfile>
+                <MemberProfile
+                  name="Jiya Bhagat"
+                  photo={jiya}
+                  instagram="https://www.instagram.com/__jiya_bhagat__"
+                  linkedin="https://www.linkedin.com/in/jiyabhagat"
+                  github="https://github.com/juniperus01"
+                  coltype="col-md-6"
+                ></MemberProfile>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <div className="bg-dark text-center">
+            <div
+              className="card-header border-light border"
+              id="heading2019"
+              style={{ padding: 0 }}
+            >
+              <h1 className="mb-0" style={{ fontSize: "xx-large" }}>
+                <button
+                  className="btn btn-link border-0"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapse2019"
+                  aria-expanded="false"
+                  aria-controls="collapse2019"
+                  style={{ fontSize: "80%" }}
+                >
+                  2021-22
+                </button>
+              </h1>
+            </div>
+            <div
+              id="collapse2019"
+              className="collapse"
+              aria-labelledby="heading2019"
+              data-parent="#accordionExample"
+            >
+              <div className="card-body bg-light">
+                <h1 className="text-center" style={{ margin: "3%" }}>
+                  LEAD MENTOR
+                </h1>
+                <MemberProfile
+                  name="Mayank Chowdhary"
+                  photo={mayank}
+                  instagram="https://www.instagram.com/mayank06302618/"
+                  linkedin="https://www.linkedin.com/in/mayankchowdhary/"
+                  github="https://github.com/m607stars"
+                  coltype="col-md-4"
+                ></MemberProfile>
+                <MemberProfile
+                  name="Rahil Parikh"
+                  photo={rahil}
+                  instagram="hhttps://www.instagram.com/rahil_parikh_/"
+                  linkedin="https://www.linkedin.com/in/rahilparikh007"
+                  github="https://github.com/Rahil-Parikh"
+                  coltype="col-md-4"
+                ></MemberProfile>
+                <h1 className="text-center">COMMUNITY MENTORS</h1>
+                <div className="row" style={{ marginTop: "3%" }}>
+                <MemberProfile
+                  name="Jatin Nainani"
+                  photo={jatin}
+                  instagram="https://www.instagram.com/jatinnainani56/"
+                  linkedin="https://www.linkedin.com/in/jatin-nainani-a6b2331b3/"
+                  github="https://github.com/NainaniJatinZ"
+                  coltype="col-md-4"
+                ></MemberProfile>
+                <MemberProfile
+                  name="Riya Gori"
+                  photo={riya}
+                  instagram="https://www.instagram.com/riya_gori/"
+                  linkedin="https://www.linkedin.com/in/riya-gori/"
+                  github="https://github.com/riyagori1203"
+                  coltype="col-md-4"
+                ></MemberProfile>
+                <MemberProfile
+                  name="Burhanuddin Rangwala"
+                  photo={burhanuddin}
+                  linkedin="https://www.linkedin.com/in/burhanuddin-rangwala-33a07a1a0/"
+                  github="https://github.com/bamblebam"
+                  coltype="col-md-4"
+                ></MemberProfile>
+                </div>
+                <h1 className="text-center">AI PROMOTERS</h1>
+                <div className="row" style={{ marginTop: "3%" }}>
+                <MemberProfile
+                  name="Jenson Joseph"
+                  photo={jenson}
+                  linkedin="https://www.linkedin.com/in/jenson-joseph-248479219/"
+                  github="https://github.com/JJsupercoder"
+                  coltype="col-md-6"
+                ></MemberProfile>
+                <MemberProfile
+                  name="Shubham Varma"
+                  photo={shubham}
+                  instagram="https://www.instagram.com/shubham17varma/"
+                  linkedin="https://www.linkedin.com/in/shubham-varma-r17092001/"
+                  github="https://github.com/shubham17varma"
+                  coltype="col-md-6"
+                ></MemberProfile>
+                </div>
+              </div>
+            </div>
+          </div>
+
         <div className="accordion " id="accordionExample">
           <div className="bg-dark text-center">
             <div
@@ -218,6 +451,7 @@ export default function Team() {
               </div>
             </div>
           </div>
+
           <div className="bg-dark text-center">
             <div
               className="card-header border-light border"
@@ -296,6 +530,7 @@ export default function Team() {
               </div>
             </div>
           </div>
+
           <div className="bg-dark text-center ">
             <div
               className="card-header border-light border"
