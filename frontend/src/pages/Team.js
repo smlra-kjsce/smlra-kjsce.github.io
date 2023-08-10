@@ -10,7 +10,7 @@ import team from "../static/Images/team.svg";
 import swatimaam from "../static/Images/profile_pics/swati maam.jpg";
 import vaibhavsir from "../static/Images/profile_pics/vaibhav sir.jpg";
 
-import alekhya from "../static/Images/profile_pics/Alekhya.jpg";
+import alekya from "../static/Images/profile_pics/Alekya.jpg";
 import jiya from "../static/Images/profile_pics/Jiya.jpg";
 import mishtee from "../static/Images/profile_pics/Mishtee.jpg";
 import himanshu from "../static/Images/profile_pics/Himanshu.jpg";
@@ -90,8 +90,8 @@ export default function Team() {
         </h1>
         <div className="row" style={{ marginTop: "5%" }}>
         <MemberProfile
-          name="Alekhya Arra"
-          photo={alekhya}
+          name="Alekya Arra"
+          photo={alekya}
           instagram="https://www.instagram.com/alekyaarra/"
           linkedin="https://www.linkedin.com/in/alekya-arra-b3528b233/"
           github="https://github.com/alekyaarra"
@@ -214,8 +214,8 @@ export default function Team() {
                 <h1 className="text-center">AI PROMOTERS</h1>
                 <div className="row" style={{ marginTop: "3%" }}>
                 <MemberProfile
-                  name="Alekhya Arra"
-                  photo={alekhya}
+                  name="Alekya Arra"
+                  photo={alekya}
                   instagram="https://www.instagram.com/alekyaarra/"
                   linkedin="https://www.linkedin.com/in/alekya-arra-b3528b233/"
                   github="https://github.com/alekyaarra"
