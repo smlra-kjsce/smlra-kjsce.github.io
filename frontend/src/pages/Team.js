@@ -149,6 +149,7 @@ export default function Team() {
         //     coltype="col-md-6"
         //   ></MemberProfile>
         // </div>
+            
         <br />
         <br />
 
