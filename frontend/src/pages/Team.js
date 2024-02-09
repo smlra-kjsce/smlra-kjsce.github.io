@@ -134,12 +134,13 @@ export default function Team() {
 
             
         <br />
-        <br />
+        <br /> 
 
         <h1 className="text-center" style={{ marginBottom: "2%" }}>
           PAST COUNCILS
         </h1>
 
+        <div className="accordion " id="accordionExample">
         <div className="bg-dark text-center">
             <div
               className="card-header border-light border"
@@ -151,9 +152,9 @@ export default function Team() {
                   className="btn btn-link border-0"
                   type="button"
                   data-toggle="collapse"
-                  data-target="#collapse2019"
+                  data-target="#collapse2022"
                   aria-expanded="false"
-                  aria-controls="collapse2019"
+                  aria-controls="collapse2022"
                   style={{ fontSize: "80%" }}
                 >
                   2022-23
@@ -161,9 +162,9 @@ export default function Team() {
               </h1>
             </div>
             <div
-              id="collapse2019"
+              id="collapse2022"
               className="collapse"
-              aria-labelledby="heading2019"
+              aria-labelledby="heading2022"
               data-parent="#accordionExample"
             >
               <div className="card-body bg-light">
@@ -271,9 +272,9 @@ export default function Team() {
                   className="btn btn-link border-0"
                   type="button"
                   data-toggle="collapse"
-                  data-target="#collapse2019"
+                  data-target="#collapse2021"
                   aria-expanded="false"
-                  aria-controls="collapse2019"
+                  aria-controls="collapse2021"
                   style={{ fontSize: "80%" }}
                 >
                   2021-22
@@ -281,9 +282,9 @@ export default function Team() {
               </h1>
             </div>
             <div
-              id="collapse2019"
+              id="collapse2021"
               className="collapse"
-              aria-labelledby="heading2019"
+              aria-labelledby="heading2021"
               data-parent="#accordionExample"
             >
               <div className="card-body bg-light">
@@ -356,7 +357,6 @@ export default function Team() {
             </div>
           </div>
 
-        <div className="accordion " id="accordionExample">
           <div className="bg-dark text-center">
             <div
               className="card-header border-light border"
