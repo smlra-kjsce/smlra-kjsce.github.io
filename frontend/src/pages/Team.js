@@ -88,14 +88,14 @@ export default function Team() {
         <h1 className="text-center" style={{ margin: "3%" }}>
           COMMUNITY MENTORS
         </h1>
-        <div className="row" style={{ marginTop: "5%"}}>
+        <div className="row d-flex justify-content-center" style={{ marginTop: "5%"}}>
         <MemberProfile
           name="Alekya Arra"
           photo={alekya}
           instagram="https://www.instagram.com/alekyaarra/"
           linkedin="https://www.linkedin.com/in/alekya-arra-b3528b233/"
           github="https://github.com/alekyaarra"
-          coltype="col-md-6"
+          coltype="col-md-4"
         ></MemberProfile>
         <MemberProfile
           name="Himanshu Patil"
@@ -103,15 +103,7 @@ export default function Team() {
           instagram="https://www.instagram.com/hima_2457/"
           linkedin="https://www.linkedin.com/in/himanshupatil829/"
           github="https://github.com/agntgalahad"
-          coltype="col-md-6"
-        ></MemberProfile>
-        <MemberProfile
-          name="Mishtee Gandhi"
-          photo={mishtee}
-          instagram="https://instagram.com/gandhimishtee?igshid=ZDdkNTZiNTM="
-          linkedin="https://www.linkedin.com/in/mishtee-gandhi/"
-          github="https://github.com/mishteegandhi"
-          coltype="col-md-6"
+          coltype="col-md-4"
         ></MemberProfile>
         <MemberProfile
           name="Kedar Kulkarni"
@@ -119,7 +111,15 @@ export default function Team() {
           instagram="https://www.instagram.com/bad_astronomer/"
           linkedin="https://www.linkedin.com/in/kedar-kulkarni-87b033250/ "
           github="https://github.com/Bad-Astronomer"
-          coltype="col-md-6"
+          coltype="col-md-4"
+        ></MemberProfile>
+        <MemberProfile
+          name="Mishtee Gandhi"
+          photo={mishtee}
+          instagram="https://instagram.com/gandhimishtee?igshid=ZDdkNTZiNTM="
+          linkedin="https://www.linkedin.com/in/mishtee-gandhi/"
+          github="https://github.com/mishteegandhi"
+          coltype="col-md-4"
         ></MemberProfile>
         <MemberProfile
           name="Jiya Bhagat"
@@ -127,7 +127,7 @@ export default function Team() {
           instagram="https://www.instagram.com/__jiya_bhagat__"
           linkedin="https://www.linkedin.com/in/jiyabhagat"
           github="https://github.com/juniperus01"
-          coltype="col-md-6"
+          coltype="col-md-4"
         ></MemberProfile>
         </div>
 
@@ -170,29 +170,31 @@ export default function Team() {
                 <h1 className="text-center" style={{ margin: "3%" }}>
                   LEAD MENTOR
                 </h1>
-                <MemberProfile
-                  name="Jatin Nainani"
-                  photo={jatin}
-                  instagram="https://www.instagram.com/jatinnainani56/"
-                  linkedin="https://www.linkedin.com/in/jatin-nainani-a6b2331b3/"
-                  github="https://github.com/NainaniJatinZ"
-                  coltype="col-md-4"
-                ></MemberProfile>
-                <MemberProfile
-                  name="Riya Gori"
-                  photo={riya}
-                  instagram="https://www.instagram.com/riya_gori/"
-                  linkedin="https://www.linkedin.com/in/riya-gori/"
-                  github="https://github.com/riyagori1203"
-                  coltype="col-md-4"
-                ></MemberProfile>
-                <MemberProfile
-                  name="Burhanuddin Rangwala"
-                  photo={burhanuddin}
-                  linkedin="https://www.linkedin.com/in/burhanuddin-rangwala-33a07a1a0/"
-                  github="https://github.com/bamblebam"
-                  coltype="col-md-4"
-                ></MemberProfile>
+                <div className="row" style={{ marginTop: "3%" }}>
+                  <MemberProfile
+                    name="Jatin Nainani"
+                    photo={jatin}
+                    instagram="https://www.instagram.com/jatinnainani56/"
+                    linkedin="https://www.linkedin.com/in/jatin-nainani-a6b2331b3/"
+                    github="https://github.com/NainaniJatinZ"
+                    coltype="col-md-4"
+                  ></MemberProfile>
+                  <MemberProfile
+                    name="Riya Gori"
+                    photo={riya}
+                    instagram="https://www.instagram.com/riya_gori/"
+                    linkedin="https://www.linkedin.com/in/riya-gori/"
+                    github="https://github.com/riyagori1203"
+                    coltype="col-md-4"
+                  ></MemberProfile>
+                  <MemberProfile
+                    name="Burhanuddin Rangwala"
+                    photo={burhanuddin}
+                    linkedin="https://www.linkedin.com/in/burhanuddin-rangwala-33a07a1a0/"
+                    github="https://github.com/bamblebam"
+                    coltype="col-md-4"
+                  ></MemberProfile>
+                </div>
                 <h1 className="text-center">COMMUNITY MENTORS</h1>
                 <div className="row" style={{ marginTop: "3%" }}>
                 <MemberProfile
@@ -212,14 +214,14 @@ export default function Team() {
                 ></MemberProfile>
                 </div>
                 <h1 className="text-center">AI PROMOTERS</h1>
-                <div className="row" style={{ marginTop: "3%" }}>
+                <div className="row d-flex justify-content-center" style={{ marginTop: "3%" }}>
                 <MemberProfile
                   name="Alekya Arra"
                   photo={alekya}
                   instagram="https://www.instagram.com/alekyaarra/"
                   linkedin="https://www.linkedin.com/in/alekya-arra-b3528b233/"
                   github="https://github.com/alekyaarra"
-                  coltype="col-md-6"
+                  coltype="col-md-4"
                 ></MemberProfile>
                 <MemberProfile
                   name="Himanshu Patil"
@@ -227,15 +229,7 @@ export default function Team() {
                   instagram="https://www.instagram.com/hima_2457/"
                   linkedin="https://www.linkedin.com/in/himanshupatil829/"
                   github="https://github.com/agntgalahad"
-                  coltype="col-md-6"
-                ></MemberProfile>
-                <MemberProfile
-                  name="Mishtee Gandhi"
-                  photo={mishtee}
-                  instagram="https://instagram.com/gandhimishtee?igshid=ZDdkNTZiNTM="
-                  linkedin="https://www.linkedin.com/in/mishtee-gandhi/"
-                  github="https://github.com/mishteegandhi"
-                  coltype="col-md-6"
+                  coltype="col-md-4"
                 ></MemberProfile>
                 <MemberProfile
                   name="Kedar Kulkarni"
@@ -243,7 +237,15 @@ export default function Team() {
                   instagram="https://www.instagram.com/bad_astronomer/"
                   linkedin="https://www.linkedin.com/in/kedar-kulkarni-87b033250/ "
                   github="https://github.com/Bad-Astronomer"
-                  coltype="col-md-6"
+                  coltype="col-md-4"
+                ></MemberProfile>
+                <MemberProfile
+                  name="Mishtee Gandhi"
+                  photo={mishtee}
+                  instagram="https://instagram.com/gandhimishtee?igshid=ZDdkNTZiNTM="
+                  linkedin="https://www.linkedin.com/in/mishtee-gandhi/"
+                  github="https://github.com/mishteegandhi"
+                  coltype="col-md-4"
                 ></MemberProfile>
                 <MemberProfile
                   name="Jiya Bhagat"
@@ -251,7 +253,7 @@ export default function Team() {
                   instagram="https://www.instagram.com/__jiya_bhagat__"
                   linkedin="https://www.linkedin.com/in/jiyabhagat"
                   github="https://github.com/juniperus01"
-                  coltype="col-md-6"
+                  coltype="col-md-4"
                 ></MemberProfile>
                 </div>
               </div>
@@ -288,22 +290,24 @@ export default function Team() {
                 <h1 className="text-center" style={{ margin: "3%" }}>
                   LEAD MENTOR
                 </h1>
-                <MemberProfile
-                  name="Mayank Chowdhary"
-                  photo={mayank}
-                  instagram="https://www.instagram.com/mayank06302618/"
-                  linkedin="https://www.linkedin.com/in/mayankchowdhary/"
-                  github="https://github.com/m607stars"
-                  coltype="col-md-4"
-                ></MemberProfile>
-                <MemberProfile
-                  name="Rahil Parikh"
-                  photo={rahil}
-                  instagram="hhttps://www.instagram.com/rahil_parikh_/"
-                  linkedin="https://www.linkedin.com/in/rahilparikh007"
-                  github="https://github.com/Rahil-Parikh"
-                  coltype="col-md-4"
-                ></MemberProfile>
+                <div className="row d-flex justify-content-center" style={{ marginTop: "3%" }}>
+                  <MemberProfile
+                    name="Mayank Chowdhary"
+                    photo={mayank}
+                    instagram="https://www.instagram.com/mayank06302618/"
+                    linkedin="https://www.linkedin.com/in/mayankchowdhary/"
+                    github="https://github.com/m607stars"
+                    coltype="col-md-4"
+                  ></MemberProfile>
+                  <MemberProfile
+                    name="Rahil Parikh"
+                    photo={rahil}
+                    instagram="hhttps://www.instagram.com/rahil_parikh_/"
+                    linkedin="https://www.linkedin.com/in/rahilparikh007"
+                    github="https://github.com/Rahil-Parikh"
+                    coltype="col-md-4"
+                  ></MemberProfile>
+                </div>
                 <h1 className="text-center">COMMUNITY MENTORS</h1>
                 <div className="row" style={{ marginTop: "3%" }}>
                 <MemberProfile
