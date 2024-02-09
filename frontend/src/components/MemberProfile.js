@@ -10,6 +10,7 @@ export default function MemberProfile(props) {
         src={props.photo}
         className="mx-auto rounded-circle"
         style={{ width: "13rem", height: "13rem" }}
+        alt={props.name}
       />
       <h5 style={{ marginTop: "2%" }}>
         <b>{props.name}</b>

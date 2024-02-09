@@ -17,7 +17,7 @@ export default function Home() {
         <Particle params={particles} className="particles_container" />
         <div
           className="btext"
-          style={{ paddingLeft: "5%", whiteSpace: "wrap" }}
+          style={{ paddingLeft: "5%", whiteSpace: "wrap", pointerEvents: "none" }}
         >
           <img src={pic} alt="smlra" style={{ width: "15%", height: "15%" }} />
           <div>

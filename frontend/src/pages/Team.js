@@ -88,7 +88,7 @@ export default function Team() {
         <h1 className="text-center" style={{ margin: "3%" }}>
           COMMUNITY MENTORS
         </h1>
-        <div className="row" style={{ marginTop: "5%" }}>
+        <div className="row" style={{ marginTop: "5%"}}>
         <MemberProfile
           name="Alekya Arra"
           photo={alekya}
